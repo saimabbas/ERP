@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="48" viewBox="0 0 200 48">
+  <g id="app_store_button" data-name="app store button" transform="translate(-309 -10882)">
+    <rect id="Rectangle_1272" data-name="Rectangle 1272" width="200" height="48" rx="5" transform="translate(309 10882)" fill="#afafaf"/>
+    <g id="Group_1838" data-name="Group 1838" transform="translate(0 1673)">
+      <text id="Available_on_the" data-name="Available on the" transform="translate(364 9229)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Available on the</tspan></text>
+      <text id="App_Store" data-name="App Store" transform="translate(364 9247)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">App Store</tspan></text>
+    </g>
+    <g id="apple" transform="translate(279.377 10891)">
+      <path id="Path_1692" data-name="Path 1692" d="M54.363,141.563c-4.565-.026-8.341-9.345-8.341-14.09,0-7.752,5.815-9.449,8.056-9.449a9.27,9.27,0,0,1,3.04.748,6.8,6.8,0,0,0,1.736.5,5.4,5.4,0,0,0,1.245-.4,9.98,9.98,0,0,1,3.753-.907h.009a7.693,7.693,0,0,1,6.437,3.251l.469.705-.676.51a5.686,5.686,0,0,0-2.726,4.689,5.292,5.292,0,0,0,2.953,4.892c.423.254.861.517.861,1.091,0,.375-2.991,8.421-7.333,8.421a5.9,5.9,0,0,1-2.476-.6,5.021,5.021,0,0,0-2.2-.531,5.67,5.67,0,0,0-1.745.472,8.549,8.549,0,0,1-3.027.706Z" transform="translate(0 -110.892)" fill="#fff"/>
+      <path id="Path_1693" data-name="Path 1693" d="M260.916,0c.113,4.078-2.8,6.907-5.716,6.73C254.72,3.475,258.113,0,260.916,0Z" transform="translate(-196.604)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="38" viewBox="0 0 75 38">
+  <g id="Group_440" data-name="Group 440" transform="translate(-81 -2)">
+    <g id="Group_13" data-name="Group 13" transform="translate(81 9.617)">
+      <g id="Group_12" data-name="Group 12">
+        <path id="Path_3" data-name="Path 3" d="M295.158,339.043A3.769,3.769,0,0,0,291.85,335H272v3.676s.368,1.838,4.043,3.308v-2.941Z" transform="translate(-271.7 -335)" fill="#0088c4"/>
+        <path id="Path_4" data-name="Path 4" d="M271.892,345s1.47,2.206,2.941,2.206H288.8s13.968,7.352,0,16.174H271.892v-9.557a4.926,4.926,0,0,1,3.676,5.146h12.5s7.352-5.146,0-8.087H274.833S270.422,348.676,271.892,345Z" transform="translate(-271.592 -337.648)" fill="#ffc017"/>
+      </g>
+    </g>
+    <g id="Group_14" data-name="Group 14" transform="translate(108.201 3)">
+      <text id="CLOUD" transform="translate(-0.201 34)" fill="#0088c4" font-size="12" font-family="SegoeUI, Segoe UI" letter-spacing="0.18em"><tspan x="0" y="0">CLOUD</tspan></text>
+      <text id="SURF" transform="translate(-0.201 22)" fill="#0088c4" font-size="21" font-family="SegoeUI, Segoe UI" letter-spacing="-0.04em"><tspan x="0" y="0">SURF</tspan></text>
+    </g>
+  </g>
+</svg>

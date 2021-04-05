@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eazy Procure</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css.map">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="overflow-x: hidden;"   class="s-body-for-nav">
+    <button class="btn fixed-btn-1"  data-toggle="modal" data-target="#myModal-rfq-mob-1">Fixed Button</button>
+
+    <div class="modal" id="myModal-rfq-mob-1">
+      <div class="modal-dialog epocure-signin-oh">
+          <div class="modal-content">
+              <div class="container-fluid" id="mmrfq-step-1">
+                  <div class="row">
+                      <div class="col-12 mmrfq-1">
+                          <i class="fas fa-chevron-left" data-dismiss="modal"></i> <!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+                          <h1>RFQ Step 1</h1>
+                          <span><i class="fas fa-times" data-dismiss="modal"></i></span>
+                      </div>
+                      <div class="col-12 mmrfq-13">
+                          <p class="mb-0">Sign In</p>
+                      </div>
+                      <div class="col-12 mrfq-11">
+                          <ul class="nav nav-pills">
+                              <li class="nav-item">
+                                <a class="nav-link active" data-toggle="pill" href="#mmrfq-phone">
+                                    <i class="fas fa-phone-alt"></i> By Phone
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#mmrfq-email">
+                                    <i class="fas fa-envelope"></i> By Email
+                                </a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="col-12 mmrfq-12">
+                          <div class="tab-content">
+                            <div class="tab-pane active" id="mmrfq-phone">
+  
+                              <div class="mmrfq-phone-content">
+                                  <select class="form-control">
+                                      <option style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">+92</option>
+                                      <option style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">+92</option>
+                                      <option style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">+92</option>
+                                      <option style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">+92</option>
+                                      <option style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">+92</option>
+                                      <option style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">+92</option>
+                                  </select>
+                                  <input type="text" class="form-control">
+                              </div>
+  
+                            </div>
+                            <div class="tab-pane fade" id="mmrfq-email">
+                                <div class="mmrfq-email-content">
+                                  <input type="text" class="form-control">
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-12 mmrfq-14">
+                          <button class="btn mmrfq-btn-step-1">Proceed to Step 2</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="container-fluid" id="mmrfq-step-2">
+                          <div class="row">
+                              <div class="col-12 mmrfq-1">
+                                  <i class="fas fa-chevron-left" data-dismiss="modal"></i> <!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+                                  <h1>RFQ Step 2</h1>
+                                  <span><i class="fas fa-times" data-dismiss="modal"></i></span>
+                              </div>
+                          </div>
+                          <div class="row justify-content-center">
+                              <div class="col-7 pop-singin">
+                                  <p>Sign In</p>
+                              </div>
+                              <div class="col-7 pop-radio" >
+                                  <p>OTP has been sent to tal******.com <a href="#">Change</a></p>
+                                  <h6>Enter One-Time Password (OTP) below</h6>
+                              </div>
+                              <div class="col-7 text-proceed">
+                                  <form class="form-inline pop-otp">
+                                      <input type="text" class="form-control" id='ist' maxlength="1" onkeyup="clickEvent(this,'sec')">
+                                      <input type="text" class="form-control" id="sec" maxlength="1" onkeyup="clickEvent(this,'third')">
+                                      <input type="text" class="form-control" id="third" maxlength="1" onkeyup="clickEvent(this,'fourth')">
+                                      <input type="text" class="form-control" id="fourth" maxlength="1" onkeyup="clickEvent(this,'fifth')">
+                                      <input type="text" class="form-control" id="fifth" maxlength="1" onkeyup="clickEvent(this,'sixth')">
+                                      <input type="text" class="form-control" id="sixth" maxlength="1">
+                                  </form>
+                                  <button class="btn pop-proceed white-btn">Sign In</button>
+                              </div>
+                          </div>
+                          <p class="resend-otp">Resend One Time Password (OTP)</p>
+                          <p class="otp-sent">OTP already sent!</p>
+                          <p class="please-wait">Please wait <span id="counter"></span> before resending</p>
+                          <div class="row">
+                              <div class="col-12 mmrfq-14">
+                                  <button class="btn mmrfq-btn-step-2">Proceed to Step 3</button>
+                              </div>
+                          </div>
+              </div>
+              <div class="container-fluid" id="mmrfq-step-3">
+                  <div class="row">
+                      <div class="col-12 mmrfq-1">
+                          <i class="fas fa-chevron-left" data-dismiss="modal"></i> <!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+                          <h1>RFQ Step 3</h1>
+                          <span><i class="fas fa-times" data-dismiss="modal"></i></span>
+                      </div>
+                      <div class="col-12 mmrfq-2">
+                          <div class="mmrfq-2-field">
+                              <label>Product Name</label>
+                              <input class="form-control" type="text">
+                          </div>
+                          <span class="mmrfq-1-icon-box"><i class="fas fa-camera"></i></span>
+                      </div>
+                      <div class="col-12 mmrfq-3">
+                          <label> Product Type </label>
+                          <select class="form-control">
+                              <option></option>
+                              <option>Saudi Arabia</option>
+                              <option>Iraq</option>
+                              <option>Iran</option>
+                              <option>India</option>
+                              <option>USA</option>
+                              <option>China</option>
+                              <option>England</option>
+                              <option>Korea</option>
+                          </select>
+                      </div>
+                      <div class="col-12 mmrfq-2">
+                          <div class="mmrfq-2-field">
+                              <label>Vendor Location</label>
+                              <input class="form-control" type="text">
+                          </div>
+                          <span class="mmrfq-1-icon-box"><i class="fas fa-map-marker-alt"></i></span>
+                      </div>
+                      <div class="col-12 mmrfq-4">
+                          <p>Quantity</p>
+                          <div class="mmrfq-4-counter">
+                              <span><i class="fas fa-minus"></i></span>
+                              <span>6</span>
+                              <span><i class="fas fa-plus"></i></span>
+                          </div>
+                          <select class="form-control">
+                              <option></option>
+                              <option>Saudi Arabia</option>
+                              <option>Iraq</option>
+                              <option>Iran</option>
+                              <option>India</option>
+                              <option>USA</option>
+                              <option>China</option>
+                              <option>England</option>
+                              <option>Korea</option>
+                          </select>
+                      </div>
+                      <div class="col-12 mmrfq-heading">
+                          <p>Attachments</p>
+                      </div>
+                      <div class="col-12 mmrfq-5">
+                          <div class="mmrfq-5-main-box">
+                              <div class="mmrfq-5-percent-box"></div>
+                              <div class="mmrfq-5-left">
+                                  <i class="fas fa-file"></i>
+                                  <div class="mmrfq-5-left-text-box">
+                                      <p>Document 1.pdf</p>
+                                      <span>2.6MB of 4MB</span>
+                                  </div>
+                              </div>
+                              <div class="mmrfq-5-right">
+                                  <span>65%</span>
+                                  <i class="fas fa-times"></i>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-12 mmrfq-5">
+                          <div class="mmrfq-5-main-box">
+                              <!-- <div class="mmrfq-5-percent-box"></div> -->
+                              <div class="mmrfq-5-left">
+                                  <i class="fas fa-file"></i>
+                                  <div class="mmrfq-5-left-text-box">
+                                      <p>Document 1.pdf</p>
+                                      <span>Upload Complete 4MB</span>
+                                  </div>
+                              </div>
+                              <div class="mmrfq-5-right">
+                                  <span>100%</span>
+                                  <i class=""></i> <!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-12 mmrfq-6">
+                          <span><img src="img/mfrp-up.svg"></span>
+                      </div>
+                      <div class="col-12 mmrfq-7">
+                          <button class="btn mmrfq-btn-step-3">Proceed to Step 4</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="container-fluid" id="mmrfq-step-4">
+                  <div class="row">
+                      <div class="col-12 mmrfq-1">
+                          <i class="fas fa-chevron-left" data-dismiss="modal"></i> <!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+                          <h1>RFQ Step 4</h1>
+                          <span><i class="fas fa-times" data-dismiss="modal"></i></span>
+                      </div>
+                      <div class="col-12 mmrfq-2">
+                          <div class="mmrfq-2-field mmrfq-21-field">
+                              <label>Detail</label>
+                              <input class="form-control" type="text">
+                          </div>
+                      </div>
+                      <div class="col-12 mmrfq-22">
+                          <span>Supplier Capability</span>
+                      </div>
+                      <div class="col-12 mmrfq-4">
+                          <p>Quantity</p>
+                          <div class="mmrfq-4-counter">
+                              <span><i class="fas fa-minus"></i></span>
+                              <span>6</span>
+                              <span><i class="fas fa-plus"></i></span>
+                          </div>
+                          <select class="form-control">
+                              <option></option>
+                              <option>Saudi Arabia</option>
+                              <option>Iraq</option>
+                              <option>Iran</option>
+                              <option>India</option>
+                              <option>USA</option>
+                              <option>China</option>
+                              <option>England</option>
+                              <option>Korea</option>
+                          </select>
+                      </div>
+                      <div class="col-12 mmrfq-22">
+                          <span>Shipping and Payment</span>
+                      </div>
+                      <div class="col-12 mmrfq-23">
+                          <div class="saim-universal-checkbox">
+                              <input type="checkbox" name="abc-checkbox" id="suc-1">
+                              <label for="suc-1">
+                                  <div class="su-tick"><i class="fas fa-check"></i></div>
+                                  <span>I agree to share my details with quoted supplier.</span>
+                              </label>
+                          </div>
+                          <div class="saim-universal-checkbox">
+                              <input type="checkbox" name="abc-checkbox" id="suc-2">
+                              <label for="suc-2">
+                                  <div class="su-tick"><i class="fas fa-check"></i></div>
+                                  <span>I have read and agreed to abide by the Buying Request Posting Rules.</span>
+                              </label>
+                          </div>
+                      </div>
+                      <div class="col-12 mmrfq-7">
+                          <button class="btn">PROCEED</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="bars-nav-box">
+        <a href="#">Features</a>
+        <a href="#">Why EazyProcure</a>
+        <a href="#" class="uc-btn">UseCase <i class="fas fa-chevron-down"></i></a>
+        <div class="use-case-mob">
+            <a href="#"><img src="img/dp-1.svg"> <span>Food Delivery</span></a>
+            <a href="#"><img src="img/dp-2.svg"> <span>Grocery Delivery</span></a>
+            <a href="#"><img src="img/dp-1.svg"> <span>Home Services</span></a>
+            <a href="#"><img src="img/dp-3.svg"> <span>Pharmacy On-Demand</span></a>
+            <a href="#"><img src="img/dp-4.svg"> <span>Salon At Home</span></a>
+        </div>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+    </div>
+    
+    <div class="container-fluid top-nav-s">
+        <div class="row top-eazy-nav-box">
+            <div class="col-sm-2 col-3 img-eazy-name">
+               <img src="img/ezp.svg">
+            </div>
+            <div class="offset-2 col-5 top-nav-eazy-options">
+                <a href="">Features</a>
+                <a href="">Why EazyProcure</a>
+                <div class="dropdown use-case-box">
+                    <button type="button " class="btn dropdown-toggle" data-toggle="dropdown">
+                        Use Case
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu dd-main-menu">
+                      <div class="drop-down-opt-box">
+                        <a class="dropdown-item" href="#">
+                            <div class="dd-img-main-box">
+                                <div class="dd-img-box">
+                                    <img src="img/dp-1.svg"> <span>Food Delivery</span>
+                                  </div>
+                            </div>
+                         </a>
+                         <a class="dropdown-item" href="#">
+                            <div class="dd-img-main-box">
+                                <div class="dd-img-box">
+                                    <img src="img/dp-2.svg"> <span>Grocery Delivery</span>
+                                  </div>
+                            </div>
+                         </a>
+                         <a class="dropdown-item" href="#">
+                            <div class="dd-img-main-box">
+                                <div class="dd-img-box mr-0">
+                                    <img src="img/dp-1.svg"> <span>Home Services</span>
+                                  </div>
+                            </div>
+                         </a>
+                      </div>
+                     <div class="drop-down-opt-box">
+                        <a class="dropdown-item" href="#">
+                            <div class="dd-img-main-box">
+                                <div class="dd-img-box">
+                                    <img src="img/dp-3.svg"> <span>Pharmacy On-Demand</span>
+                                  </div>
+                            </div>
+                         </a>
+                         <a class="dropdown-item" href="#">
+                            <div class="dd-img-main-box">
+                                <div class="dd-img-box">
+                                    <img src="img/dp-4.svg"> <span>Salon At Home</span>
+                                  </div>
+                            </div>
+                         </a>
+                         <a class="dropdown-item" href="#">
+                            <div class="dd-img-main-box">
+                                <div class="dd-img-box mr-0">
+                                    <img src="img/dp-5.svg"> <span>Dog Walking</span>
+                                  </div>
+                            </div>
+                         </a>
+                      </div>
+                    </div>
+                  </div>
+                <a href="">FAQ</a>
+                <a href="">Contact Us</a>
+               
+            </div>
+            <div class="col-sm-3 col-9 eazy-req-lan-box">
+                <button type="button" class="btn eazy-req-button">Send your Request</button>
+                <i class="fas fa-search-location s-end-searvh-icon"></i>
+                <div class="dropdown globe-lan-opt">
+                    <button type="button " class="btn dropdown-toggle" data-toggle="dropdown">
+                        <i class="fas fa-globe"></i>
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">English</a>
+                      <a class="dropdown-item" href="#">العربية</a>
+                    </div>
+                </div>
+                <div class="bars-nav">
+                    <i class="fas fa-bars bn-show"></i>
+                    <i class="fas fa-times bn-hide"></i>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row market-para-img-box justify-content-between">
+            <div class="col-1 market-vert">
+                <h5 class="vertical-text">MARKETPLACE</h5>
+            </div>
+            <div class="col-5 main-market-para">
+                <h6>Start Your Own Online Marketplace</h6>
+                <p>Setup in Minutes</p>
+                <span>No Experience Required</span>
+               <a href="#"><h4>Let's Start <img src="img/let-arrow-img.svg"></h4></a>
+            </div>
+            <div class="col-6 col-sm-12 main-market-img">
+                 <div class="row">
+                    <div class="col-6  p-0"><img src="img/man-img.svg" ></div>
+                    <div class="col-6  p-0"><img src="img/dr-img.svg" ></div>
+                    <div class="col-6  p-0"><img src="img/black.svg" ></div>
+                    <div class="col-6  p-0"><img src="img/black.svg" ></div>
+                 </div>
+            </div>
+        </div>
+        <div class="row eazy-feature-box">
+            <div class="col-sm-6 col-12 eazy-feat-para">
+                <p>EazyProcure is packed with powerful features centered your needs!</p>
+            </div>
+            <div class="col-6 eazy-feat-img  main-market-img">
+                <div class="row">
+                    <div class="col-6 p-0"><img src="img/house.svg" ></div>
+                    <div class="col-6 p-0"><img src="img/man-img.svg" ></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-8 col-4 eazy-purple-circle">
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row eazy-9-boxes">
+            <div class="col-12 col-sm-4 eazy-1st-box">
+                <div class="box-1st-det">
+                    <div class="box-1st-img">
+                        <div class="box-img-box">
+                            <img src="img/y-phone.svg">
+                        </div>
+                        <h6>Real-Time Audio & Video Chat</h6>
+                    </div>
+                    <div class="box-1st-para">
+                        <p>Clients can connect with experts instantly through audio/video calls with end-to-end encrypted chats and a screen-sharing option.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 eazy-1st-box">
+                <div class="box-1st-det">
+                    <div class="box-1st-img">
+                        <div class="box-img-box">
+                            <img src="img/cata.svg">
+                        </div>
+                        <h6>Catalog Manager</h6>
+                    </div>
+                    <div class="box-1st-para">
+                        <p>Admins can add, edit, and update details of expert service providers on a single dashboard.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 eazy-1st-box">
+                <div class="box-1st-det">
+                    <div class="box-1st-img">
+                        <div class="box-img-box">
+                            <img src="img/push.svg">
+                        </div>
+                        <h6>Push Notifications</h6>
+                    </div>
+                    <div class="box-1st-para">
+                        <p>Service providers and clients get instant notifications about bookings through chats and reminders.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 eazy-1st-box">
+                <div class="box-1st-det">
+                    <div class="box-1st-img">
+                        <div class="box-img-box">
+                        <img src="img/easy.svg">
+                        </div>
+                        <h6>Easy Payments</h6>
+                    </div>
+                    <div class="box-1st-para">
+                        <p>Set your desired consultation fees and seamlessly collect payments from clients through multiple payment gateways.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 eazy-1st-box">
+                <div class="box-1st-det">
+                    <div class="box-1st-img">
+                        <div class="box-img-box">
+                            <img src="img/search-img.svg">
+                        </div>
+                        <h6>Advanced Search</h6>
+                    </div>
+                    <div class="box-1st-para">
+                        <p>Whether it's online medical or fitness consultation, clients can search & select from a wide range of providers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 eazy-1st-box">
+                <div class="box-1st-det">
+                    <div class="box-1st-img">
+                        <div class="box-img-box">
+                            <img src="img/quic-img.svg">
+                        </div>
+                        <h6>Quick Appointments</h6>
+                    </div>
+                    <div class="box-1st-para">
+                        <p>Clients can book their appointments according to their and service provider's availability.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 eazy-1st-box">
+                <div class="box-1st-det">
+                    <div class="box-1st-img">
+                        <div class="box-img-box">
+                            <img src="img/listing-img.svg">
+                        </div>
+                        <h6>Listings Management</h6>
+                    </div>
+                    <div class="box-1st-para">
+                        <p>Set your desired consultation fees and seamlessly collect payments from clients through multiple payment gateways.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 eazy-1st-box">
+                <div class="box-1st-det">
+                    <div class="box-1st-img">
+                        <div class="box-img-box">
+                            <img src="img/themes-img.svg">
+                        </div>
+                        <h6>Customizable Themes</h6>
+                    </div>
+                    <div class="box-1st-para">
+                        <p>Whether it's online medical or fitness consultation, clients can search & select from a wide range of providers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 eazy-1st-box">
+                <div class="box-1st-det">
+                    <div class="box-1st-img">
+                        <div class="box-img-box">
+                            <img src="img/anal-img.svg">
+                        </div>
+                        <h6>Analytics & Reports</h6>
+                    </div>
+                    <div class="box-1st-para">
+                        <p>Clients can book their appointments according to their and service provider's availability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-12 pur-started-rib">
+                <img src="img/purple-ribbon.svg">
+                  <div class="pur-started-btn">
+                    <p>Launch Your Online Consultation Marketplace</p>
+                    <button type="button" class="btn">Get Started!</button>
+                  </div>
+            </div>
+        </div>
+        <div class="row eazy-4-points-box">
+            <div class="offset-sm-2 col-sm-8 offset-0 col-12  points-head-para p-0">
+                <p>What makes EazyProcure your one-stop unique web marketplace solution?</p>
+            </div>
+            <div class="col-10 offset-1 offset-sm-0 col-sm-6 eazy-points-img">
+                <img src="img/trends-img.svg" >
+            </div>
+            <div class="col-10 offset-1 offset-sm-0 col-sm-6 eazy-4-points-detail">
+               <div class="eazy-4-points-detail-box">
+                <i class="far fa-check-circle"></i>
+                <p>No coding or technical knowledge required</p>
+               </div>
+               <div class="eazy-4-points-detail-box">
+                <i class="far fa-check-circle"></i>
+                <p>Set up your online consulting business in minute</p>
+               </div>
+               <div class="eazy-4-points-detail-box">
+                <i class="far fa-check-circle"></i>
+                <p>GDPR compliant to safeguard your data</p>
+               </div>
+               <div class="eazy-4-points-detail-box">
+                <i class="far fa-check-circle"></i>
+                <p>Limitless possibilities with use cases tailored for you.</p>
+               </div>
+            </div>
+        </div>
+        <div class="row eazy-chosen-opt">
+            <div class="col-12 eazy-chosen-head">
+                <p>Why should you choose EazyProcure?</p>
+            </div>
+        </div>
+        <div class="row eazy-6-boxes">
+            <div class="col-10 offset-1 col-sm-4 offset-sm-0 eazy-1st-box">
+                <div class="box-1st-det eazy-chosen-1st-det">
+                    <div class="box-1st-img eazy-chosen-boxes">
+                        <img src="img/cost-img.svg">
+                        <h6>Cost-Effective</h6>
+                    </div>
+                    <div class="box-1st-para eazy-chosen-para">
+                        <p>SaaS products are much more cost-effective and efficient than Custom Script. A low monthly subscription fee is all it takes to set up your</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 offset-1 col-sm-4 offset-sm-0 eazy-1st-box">
+                <div class="box-1st-det eazy-chosen-1st-det">
+                    <div class="box-1st-img eazy-chosen-boxes">
+                        <img src="img/reg-img.svg">
+                        <h6>Regular Upgrades</h6>
+                    </div>
+                    <div class="box-1st-para eazy-chosen-para">
+                        <p>With Panther's newer and better upgrades, you get to take your business up a notch with every upgrade</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 offset-1 col-sm-4 offset-sm-0 eazy-1st-box">
+                <div class="box-1st-det eazy-chosen-1st-det">
+                    <div class="box-1st-img eazy-chosen-boxes">
+                        <img src="img/dev-img.svg">
+                        <h6>Device Compatibility</h6>
+                    </div>
+                    <div class="box-1st-para eazy-chosen-para">
+                        <p>You have the flexibility to access your web marketplace across multiple devices</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 offset-1 col-sm-4 offset-sm-0 eazy-1st-box">
+                <div class="box-1st-det eazy-chosen-1st-det">
+                    <div class="box-1st-img eazy-chosen-boxes">
+                        <img src="img/seam-img.svg">
+                        <h6>Seamless Integrations</h6>
+                    </div>
+                    <div class="box-1st-para eazy-chosen-para">
+                        <p>With smooth third-party integrations, you can transfer data between apps with software's built-in APIs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 offset-1 col-sm-4 offset-sm-0 eazy-1st-box">
+                <div class="box-1st-det eazy-chosen-1st-det">
+                    <div class="box-1st-img eazy-chosen-boxes">
+                        <img src="img/save-img.svg">
+                        <h6>Save Time & Resources</h6>
+                    </div>
+                    <div class="box-1st-para eazy-chosen-para">
+                        <p>Panther is loaded with pre-existing features that are made to perfectly align with your business and get started in no time</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 offset-1 col-sm-4 offset-sm-0 eazy-1st-box">
+                <div class="box-1st-det eazy-chosen-1st-det">
+                    <div class="box-1st-img eazy-chosen-boxes">
+                        <img src="img/imme-img.svg">
+                        <h6>Immediate Action</h6>
+                    </div>
+                    <div class="box-1st-para eazy-chosen-para">
+                        <p>You can start your live on-demand services within minutes with a SaaS product</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-12 pur-started-rib">
+                <img src="img/purple-ribbon.svg">
+                  <div class="pur-started-btn">
+                    <p>Launch Your Online Consultation Marketplace</p>
+                    <button type="button" class="btn">Get Started!</button>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row desktop-hovers eazy-feat-box">
+            <div class="col-4 eazy-feat-heading">
+                <h5>Feature-rich eProcurement Platform</h5>
+                <ol class="eazy-feat-ol-point">
+                    <li class="eazy-feat-li-points"> 
+                        <div class="eazy-cata-mana-img">
+                            <img src="img/map-loc-img.svg" alt="">
+                            <h6 id="hh-1">Product Catalog</h6>
+                        </div>
+                        <p>Add and update all the details of the Experts like Expertise, timing, pricing etc.</p>
+                    </li>
+                    <li class="eazy-feat-li-points"> 
+                        <div class="eazy-cata-mana-img">
+                            <img src="img/map-loc-img.svg" alt="">
+                            <h6 id="hh-2">Buyer can add product in cart or RFQ</h6>
+                        </div>
+                        <p>Send push notifications, Email and SMS to your customers in one click.</p>
+                    </li>
+                    <li class="eazy-feat-li-points"> 
+                        <div class="eazy-cata-mana-img">
+                            <img src="img/map-loc-img.svg" alt="">
+                            <h6 id="hh-3" class="pne-heading">Push Notifications, email and SMS</h6>
+                        </div>
+                        <p>Integrate with multiple payment gateways to get instant payment. Set consultation fee as per your wish.</p>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-8 p-0">
+                <div class="img-1 "> 
+                    <img id="hi-1" src="img/lap-img.svg">
+                    <img id="hi-2" src="img/ip-img.svg">
+                    <img id="hi-3" src="img/push-img.svg">
+                </div>
+            </div>
+        </div>
+        <div class="row desktop-hovers eazy-feat-box eazy-feat-box-2">
+            <div class="col-8 p-0">
+                <div class="img-1 img-1-2"> 
+                    <img id="hi-3-1" src="img/bm-img.svg">
+                    <img id="hi-3-2" src="img/req-img.svg">
+                    <img id="hi-3-3" src="img/off-img.svg">
+                </div>
+            </div>
+            <div class="col-4 eazy-feat-heading">
+                <h5>Intiutive Marketplace on Mobile</h5>
+                <ol class="eazy-feat-ol-point">
+                    <li class="eazy-feat-li-points"> 
+                        <div class="eazy-cata-mana-img">
+                            <img src="img/map-loc-img.svg" alt="">
+                            <h6 id="hh-3-1">Business Marketplace</h6>
+                        </div>
+                        <p>Consult via chat or audio/video call with Experts and get your consultation summary directly on your App.</p>
+                    </li>
+                    <li class="eazy-feat-li-points"> 
+                        <div class="eazy-cata-mana-img">
+                            <img src="img/map-loc-img.svg" alt="">
+                            <h6 id="hh-3-2">Request for Quote</h6>
+                        </div>
+                        <p>Opportunity to search & filter from a wide range of Consultation providers.</p>
+                    </li>
+                    <li class="eazy-feat-li-points"> 
+                        <div class="eazy-cata-mana-img">
+                            <img src="img/map-loc-img.svg" alt="">
+                            <h6 id="hh-3-3">Shopping Cart</h6>
+                        </div>
+                        <p>Schedule your booking in one go. Book now or schedule a booking later.</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row mob-hovers">
+            <div class="col-12">
+                <h1 class="mh-main-heading">Feature-rich Expert App & Website</h1>
+                <div class="mob-hover-swiper">
+                    <div class="swiper-wrapper mh-wrapper">
+                        <div class="swiper-slide mh-slide col-12">
+                            <img src="img/Catalogue-manager.svg">
+                            <h1>Catalogue Manager</h1>
+                            <p>Add and update all the details of the Experts like Expertise, timing, pricing etc.</p>
+                        </div>
+                        <div class="swiper-slide mh-slide col-12">
+                            <img src="img/Catalogue-manager.svg">
+                            <h1>Push notifications, Email and SMS</h1>
+                            <p>Send push notifications, Email and SMS to your customers in one click.</p>
+                        </div>
+                        <div class="swiper-slide mh-slide col-12">
+                            <img src="img/Catalogue-manager.svg">
+                            <h1>Seamless Payment</h1>
+                            <p>Integrate with multiple payment gateways to get instant payment. Set consultation fee as per your wish.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mob-hovers">
+            <div class="col-12">
+                <h1 class="mh-main-heading">Feature-rich Expert App & Website</h1>
+                <div class="mob-hover-swiper-2">
+                    <div class="swiper-wrapper mh-wrapper">
+                        <div class="swiper-slide mh-slide col-12">
+                            <img src="img/Catalogue-manager.svg">
+                            <h1>Catalogue Manager</h1>
+                            <p>Add and update all the details of the Experts like Expertise, timing, pricing etc.</p>
+                        </div>
+                        <div class="swiper-slide mh-slide col-12">
+                            <img src="img/Catalogue-manager.svg">
+                            <h1>Push notifications, Email and SMS</h1>
+                            <p>Send push notifications, Email and SMS to your customers in one click.</p>
+                        </div>
+                        <div class="swiper-slide mh-slide col-12">
+                            <img src="img/Catalogue-manager.svg">
+                            <h1>Seamless Payment</h1>
+                            <p>Integrate with multiple payment gateways to get instant payment. Set consultation fee as per your wish.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mob-hovers">
+            <div class="col-12">
+                <h1 class="mh-main-heading">Feature-rich Expert App & Website</h1>
+                <div class="mob-hover-swiper-3">
+                    <div class="swiper-wrapper mh-wrapper">
+                        <div class="swiper-slide mh-slide col-12">
+                            <img src="img/Catalogue-manager.svg">
+                            <h1>Catalogue Manager</h1>
+                            <p>Add and update all the details of the Experts like Expertise, timing, pricing etc.</p>
+                        </div>
+                        <div class="swiper-slide mh-slide col-12">
+                            <img src="img/Catalogue-manager.svg">
+                            <h1>Push notifications, Email and SMS</h1>
+                            <p>Send push notifications, Email and SMS to your customers in one click.</p>
+                        </div>
+                        <div class="swiper-slide mh-slide col-12">
+                            <img src="img/Catalogue-manager.svg">
+                            <h1>Seamless Payment</h1>
+                            <p>Integrate with multiple payment gateways to get instant payment. Set consultation fee as per your wish.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-12 pur-started-rib">
+                <img src="img/purple-ribbon.svg">
+                  <div class="pur-started-btn">
+                    <p>Launch Your Online Consultation Marketplace</p>
+                    <button type="button" class="btn">Get Started!</button>
+                  </div>
+            </div>
+        </div>
+        <div class="row int-img-points-main-box">
+            <div class="offset-sm-1 col-sm-5 col-10 offset-1 int-main-img">
+                <img src="img/ippp-img.svg">
+            </div>
+            <div class="col-sm-6 col-12 offset-2 offset-sm-0 int-img-points">
+                <p>Integration Partners</p>
+                <div class="integration-points">
+                    <img src="img/map-loc-img.svg">
+                    <p>Global Support</p>
+                </div>
+                <div class="integration-points">
+                    <img src="img/map-loc-img.svg">
+                    <p>100+ Payment Gateways</p>
+                </div>
+                <div class="integration-points">
+                    <img src="img/map-loc-img.svg">
+                    <p>50+ Languages</p>
+                </div>
+                <div class="integration-points">
+                    <img src="img/map-loc-img.svg">
+                    <p>500+ Integrations</p>
+                </div>
+            </div>
+        </div>
+        <div class="row pur-rib-ceo-main-box" >
+            <div class="pur-started-rib pur-rib-ceo-box">
+                <img class="pur-started-rib-bg big-mob-img-ind" src="img/purple-ribbon.svg">
+                <div class="col-12 p-0">
+                    <div class="row">
+                        <div class="offset-sm-1 col-sm-2 col-12  p-0 msg-img-ceo-box">
+                            <img class="mob-face" src="img/ceo-img.svg">
+                        </div>
+                        <div class="col-sm-9 col-12 mes-box-ceo">
+                                <h6>Message From the CEO</h6>
+                                <p>"We are passionate about creating solutions that add value to your business and lead to success. We strongly believe that we can together build the best product and cater to the need of the customers."</p>
+                                <span>- CEO Name</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row eazy-chosen-opt">
+            <div class="col-12 eazy-chosen-head">
+                <p>Empowering businesses all across the world</p>
+            </div>
+        </div>
+        <div class="row eazy-bussi-img-box">
+            <div class="col-12 brand-img-display eazy-bussi-images">
+                <img src="img/buddy-img.svg" >
+                <img src="img/santa-img.svg" >
+                <img src="img/dropp-img.svg" >
+                <img src="img/best-img.svg" >
+                <img src="img/tigris-img.svg">
+            </div>
+            <div class="col-12 brand-img-display eazy-bussi-images">
+                <img src="img/clean-img.svg" >
+                <img src="img/vidd-img.svg" >
+                <img src="img/greenr-img.svg" >
+                <img src="img/wash-img.svg" class="eazy-wash-img" >
+                <img src="img/vin-img.svg">
+            </div>
+            <div class="col-12 eazy-bussi-images">
+                <img class="brand-img-display" src="img/buddy-img.svg" >
+                <img class="brand-img-display" src="img/santa-img.svg" >
+                <img src="img/dropp-img.svg" >
+                <img src="img/best-img.svg" >
+                <img src="img/tigris-img.svg">
+            </div>
+            <div class="col-12 eazy-bussi-images">
+                <img class="brand-img-display" src="img/clean-img.svg" >
+                <img class="brand-img-display" src="img/vidd-img.svg" >
+                <img src="img/greenr-img.svg" >
+                <img src="img/greenr-img.svg" >
+                <img src="img/vin-img.svg">
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-12 pur-started-rib">
+                <img src="img/purple-ribbon.svg" >
+                  <div class="pur-started-btn">
+                    <p>Launch Your Online Consultation Marketplace</p>
+                    <button type="button" class="btn">Get Started!</button>
+                  </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid footer-absolute">
+        <div class="row pt-sm-5 pt-3 pb-3 footer-fluid footer-part-1">
+          <div class="col-sm-2 col-6">
+            <h5>Customer Services</h5>
+            <h6>Help Center</h6>
+            <h6>Contact US</h6>
+            <h6>Report an Issue</h6>
+            <h6>Submit a Proposal</h6>
+            <h6>Policies & Rules</h6>
+            <h6>Give Feedback</h6>
+          </div>
+          <div class="col-sm-2 mob-footer-display col-6">
+            <h5>About Us</h5>
+            <h6>About iPortal ERP</h6>
+            <h6>About 5D Solutions</h6>
+            <h6>Sitemap</h6>
+          </div>
+          <div class="col-sm-2 mob-footer-display col-6 ">
+            <h5>Using ERP Solutions</h5>
+            <h6>All Services</h6>
+            <h6>Request for Quotation</h6>
+            <h6>For Suppliers</h6>
+          </div>
+          <div class="col-sm-2 mob-footer-display col-6 ">
+            <h5>Supplier Services</h5>
+            <h6>Supplier Membership</h6>
+            <h6>Learning Center</h6>
+            <h6>Partner Program</h6>
+          </div>
+          <div class="col-sm-2 col-6 ">
+            <h5>Trade Services</h5>
+            <h6>Trade Assurance</h6>
+            <h6>Business Identity</h6>
+            <h6>Logistics Service</h6>
+            <h6>Monitoring Service</h6>
+            <h6>Payment Terms</h6>
+            <h6>Credits</h6>
+          </div>
+          </div>
+          <div class="row py-sm-4 py-2 footer-fluid footer-part-2">
+            <div class="col-sm-4 mob-footer-display pb-sm-0 py-2 footer-part-2-part-1">
+              <p>Download</p>
+              <a href="#"><img src="img/app store button.svg" alt="App Store"></a>
+              <a href="#"><img src="img//google play button.svg" alt="Google Play Store"></a>
+            </div>
+            <div class="col-sm-4 mob-footer-display footer-part-2-part-2">
+              <p>5D Sol iPortal ERP App</p>
+              <a href="#"><img src="img//5D app.svg" alt=""></a>
+            </div>
+            <div class="col-sm-4 col-12 footer-part-2-part-3 mob-footer-links">
+              <p>Follow Us</p>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              </div>
+              <div class="col-12 pt-sm-4 pt-0 mob-ur-mob">
+                <p class="mob-lines-mob">iPortal.com Site: International - English - </p>
+                <p class="mob-lines-mob">5D Solutionos Group | ERP | iPortal | Facewall | Policies | Sitemap</p>
+                <p class="mob-ur">Browser Alphabetically: About Us | Contact Us | Home | Language | Suppliers</p>
+                <p class="mob-ur">Service Usage Policy - Intellectual Property Protection - Privacy Policy - Terms of Use - User Information Legal Enquiry Guide</p>
+                <br class="mob-footer-display">
+                <p class="mob-lines-mob">5D SOLUTIONS © 2020</p>
+              </div>
+          </div>
+    </div>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/wow.min.js"></script>
+
+
+    <script>
+        $(".uc-btn").click(function(){
+            $(".use-case-mob").slideToggle(500);
+            $(".uc-btn i").toggleClass("fa-chevron-up");
+            $(".uc-btn i").toggleClass("fa-chevron-down");
+        })
+    </script>
+
+
+
+<script>
+    $(".bn-show").click(function(){
+        $(".bn-show").css({"display":"none"});
+        $(".bn-hide").css({"display":"flex"});
+        $(".bars-nav-box").addClass("wow animated backInRight");
+        $(".bars-nav-box").css({"transform":"translate(0,0)"});
+        $(".bars-nav-box").css({"display":"flex"});
+    });
+    $(".bn-hide").click(function(){
+        $(".bn-show").css({"display":"flex"});
+        $(".bn-hide").css({"display":"none"});
+        $(".bars-nav-box").css({"transform":"translate(100%,0)"});
+        $(".bars-nav-box").css({"display":"none"});
+    });
+  </script>
+
+    <script>
+        var swiper = new Swiper(".mob-hover-swiper", {
+          slidesPerView: "1"
+        });
+        var swiper = new Swiper(".mob-hover-swiper-2", {
+          slidesPerView: "1"
+        });
+        var swiper = new Swiper(".mob-hover-swiper-3", {
+          slidesPerView: "1"
+        });
+    </script>
+
+
+    <script>
+        $("#hh-1").hover(function(){
+            $("#hi-1").css({"display":"flex"});
+            $("#hi-1").addClass("wow animated slideInRight");
+            $("#hi-2").removeClass("slideOutLeft");
+            $("#hi-3").removeClass("slideOutLeft");
+            $("#hi-2").css({"display":"none"});
+            $("#hi-3").css({"display":"none"});
+        });
+        $("#hh-2").hover(function(){
+            $("#hi-2").css({"display":"flex"});
+            $("#hi-2").addClass("wow animated slideInRight");
+            $("#hi-1").removeClass("slideOutLeft");
+            $("#hi-3").removeClass("slideOutLeft");
+            $("#hi-1").css({"display":"none"});
+            $("#hi-3").css({"display":"none"});
+        });
+        $("#hh-3").hover(function(){
+            $("#hi-3").css({"display":"flex"});
+            $("#hi-3").addClass("wow animated slideInRight");
+            $("#hi-2").removeClass("slideOutLeft");
+            $("#hi-1").removeClass("slideOutLeft");
+            $("#hi-1").css({"display":"none"});
+            $("#hi-2").css({"display":"none"});
+        });
+    </script>
+    <script>
+        $("#hh-2-1").hover(function(){
+            $("#hi-2-1").css({"display":"flex"});
+            $("#hi-2-1").addClass("wow animated slideInRight");
+            $("#hi-2-2").removeClass("wow animated slideInRight");
+            $("#hi-2-3").removeClass("wow animated slideInRight");
+            $("#hi-2-2").css({"display":"none"});
+            $("#hi-2-3").css({"display":"none"});
+        });
+        $("#hh-2-2").hover(function(){
+            $("#hi-2-2").css({"display":"flex"});
+            $("#hi-2-2").addClass("wow animated slideInRight");
+            $("#hi-2-1").removeClass("wow animated slideInRight");
+            $("#hi-2-3").removeClass("wow animated slideInRight");
+            $("#hi-2-1").css({"display":"none"});
+            $("#hi-2-3").css({"display":"none"});
+        });
+        $("#hh-2-3").hover(function(){
+            $("#hi-2-3").css({"display":"flex"});
+            $("#hi-2-3").addClass("wow animated slideInRight");
+            $("#hi-2-2").removeClass("wow animated slideInRight");
+            $("#hi-2-1").removeClass("wow animated slideInRight");
+            $("#hi-2-1").css({"display":"none"});
+            $("#hi-2-2").css({"display":"none"});
+        });
+    </script>
+    <script>
+        $("#hh-3-1").hover(function(){
+            $("#hi-3-1").css({"display":"flex"});
+            $("#hi-3-1").addClass("wow animated slideInLeft");
+            $("#hi-3-2").removeClass("wow animated slideInLeft");
+            $("#hi-3-3").removeClass("wow animated slideInLeft");
+            $("#hi-3-2").css({"display":"none"});
+            $("#hi-3-3").css({"display":"none"});
+        });
+        $("#hh-3-2").hover(function(){
+            $("#hi-3-2").css({"display":"flex"});
+            $("#hi-3-2").addClass("wow animated slideInLeft");
+            $("#hi-3-1").removeClass("wow animated slideInLeft");
+            $("#hi-3-3").removeClass("wow animated slideInLeft");
+            $("#hi-3-1").css({"display":"none"});
+            $("#hi-3-3").css({"display":"none"});
+        });
+        $("#hh-3-3").hover(function(){
+            $("#hi-3-3").css({"display":"flex"});
+            $("#hi-3-3").addClass("wow animated slideInLeft");
+            $("#hi-3-2").removeClass("wow animated slideInLeft");
+            $("#hi-3-1").removeClass("wow animated slideInLeft");
+            $("#hi-3-1").css({"display":"none"});
+            $("#hi-3-2").css({"display":"none"});
+        });
+    </script>
+        <script>
+            $(".mmrfq-btn-step-1").click(function(){
+                $("#mmrfq-step-1").css({"display":"none"});
+                $("#mmrfq-step-2").css({"display":"block"});
+            });
+            $(".mmrfq-btn-step-2").click(function(){
+                $("#mmrfq-step-2").css({"display":"none"});
+                $("#mmrfq-step-3").css({"display":"block"});
+            });
+            $(".mmrfq-btn-step-3").click(function(){
+                $("#mmrfq-step-3").css({"display":"none"});
+                $("#mmrfq-step-4").css({"display":"block"});
+            });
+        </script>
+</body>
+</html>

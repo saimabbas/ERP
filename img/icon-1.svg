@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="194" height="194" viewBox="0 0 194 194">
+  <defs>
+    <filter id="Ellipse_45" x="0" y="0" width="194" height="194" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon-1" transform="translate(-201 -834)">
+    <g transform="matrix(1, 0, 0, 1, 201, 834)" filter="url(#Ellipse_45)">
+      <circle id="Ellipse_45-2" data-name="Ellipse 45" cx="67" cy="67" r="67" transform="translate(30 25)" fill="#64b263"/>
+    </g>
+    <path id="Icon_awesome-book" data-name="Icon awesome-book" d="M57.046,45.84V3.056A3.049,3.049,0,0,0,53.99,0H12.224A12.227,12.227,0,0,0,0,12.224V52.971A12.227,12.227,0,0,0,12.224,65.2H53.99a3.049,3.049,0,0,0,3.056-3.056V60.1a3.08,3.08,0,0,0-1.133-2.381,28.4,28.4,0,0,1,0-9.512A3.035,3.035,0,0,0,57.046,45.84ZM16.3,17.063a.766.766,0,0,1,.764-.764H44.058a.766.766,0,0,1,.764.764v2.547a.766.766,0,0,1-.764.764H17.063a.766.766,0,0,1-.764-.764Zm0,8.149a.766.766,0,0,1,.764-.764H44.058a.766.766,0,0,1,.764.764v2.547a.766.766,0,0,1-.764.764H17.063a.766.766,0,0,1-.764-.764ZM48.565,57.046H12.224a4.075,4.075,0,0,1,0-8.149H48.565A45.842,45.842,0,0,0,48.565,57.046Z" transform="translate(269.728 893.831)" fill="#fff"/>
+  </g>
+</svg>

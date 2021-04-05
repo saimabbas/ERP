@@ -1,0 +1,17 @@
+<svg id="darts" xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <g id="Group_1212" data-name="Group 1212" transform="translate(0 12)">
+    <path id="Path_455" data-name="Path 455" d="M30,64A30,30,0,1,1,60,34,30.088,30.088,0,0,1,30,64ZM30,7A27,27,0,1,0,57,34,26.888,26.888,0,0,0,30,7Z" transform="translate(0 -4)" fill="#fff"/>
+  </g>
+  <g id="Group_1213" data-name="Group 1213" transform="translate(10.5 22.5)">
+    <path id="Path_456" data-name="Path 456" d="M23,46.5A19.5,19.5,0,1,1,42.5,27,19.461,19.461,0,0,1,23,46.5Zm0-36A16.646,16.646,0,0,0,6.5,27,16.646,16.646,0,0,0,23,43.5,16.646,16.646,0,0,0,39.5,27,16.646,16.646,0,0,0,23,10.5Z" transform="translate(-3.5 -7.5)" fill="#fff"/>
+  </g>
+  <g id="Group_1214" data-name="Group 1214" transform="translate(21 33)">
+    <path id="Path_457" data-name="Path 457" d="M16,29a8.839,8.839,0,0,1-9-9,8.839,8.839,0,0,1,9-9,8.839,8.839,0,0,1,9,9A8.839,8.839,0,0,1,16,29Zm0-15a6,6,0,1,0,6,6A6.018,6.018,0,0,0,16,14Z" transform="translate(-7 -11)" fill="#fff"/>
+  </g>
+  <g id="Group_1215" data-name="Group 1215" transform="translate(28.35 18.15)">
+    <path id="Path_458" data-name="Path 458" d="M11.1,31.4a1.8,1.8,0,0,1-1.2-.3,1.45,1.45,0,0,1,0-2.1L32.4,6.5a1.485,1.485,0,0,1,2.1,2.1L12,31.1c0,.3-.6.3-.9.3Z" transform="translate(-9.45 -6.05)" fill="#fff"/>
+  </g>
+  <g id="Group_1216" data-name="Group 1216" transform="translate(51 0)">
+    <path id="Path_459" data-name="Path 459" d="M26,21H18.5A1.417,1.417,0,0,1,17,19.5V12c0-.3.3-.9.3-1.2L27.8.3A3.805,3.805,0,0,1,29.6,0a1.65,1.65,0,0,1,.9,1.5v6h6a1.65,1.65,0,0,1,1.5.9,3.8,3.8,0,0,1-.3,1.8L27.2,20.7C26.9,20.7,26.3,21,26,21Zm-6-3h5.4l7.5-7.5H29A1.417,1.417,0,0,1,27.5,9V5.1L20,12.6Z" transform="translate(-17 0)" fill="#fff"/>
+  </g>
+</svg>

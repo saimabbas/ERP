@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="270.686" viewBox="0 0 1920 270.686">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_6873" data-name="Path 6873" d="M0,0H1920V270.686H0Z" transform="translate(0 2002)" fill="#ffd182"/>
+    </clipPath>
+  </defs>
+  <g id="purple-ribbon" transform="translate(0 -2002)">
+    <path id="Path_6872" data-name="Path 6872" d="M0,0H1920V270.686H0Z" transform="translate(0 2002)" fill="#bb85ff"/>
+    <g id="Mask_Group_4075" data-name="Mask Group 4075" clip-path="url(#clip-path)">
+      <g id="Group_4390" data-name="Group 4390">
+        <g id="Ellipse_231" data-name="Ellipse 231" transform="translate(995 1930)" fill="none" stroke="#fff" stroke-width="3" opacity="0.2">
+          <ellipse cx="183" cy="183.5" rx="183" ry="183.5" stroke="none"/>
+          <ellipse cx="183" cy="183.5" rx="181.5" ry="182" fill="none"/>
+        </g>
+        <g id="Ellipse_232" data-name="Ellipse 232" transform="translate(1822.5 2099.5) rotate(90)" fill="none" stroke="#fff" stroke-width="3" opacity="0.2">
+          <ellipse cx="183" cy="183.5" rx="183" ry="183.5" stroke="none"/>
+          <ellipse cx="183" cy="183.5" rx="181.5" ry="182" fill="none"/>
+        </g>
+        <g id="Ellipse_235" data-name="Ellipse 235" transform="translate(573.5 2099.5) rotate(90)" fill="none" stroke="#fff" stroke-width="3" opacity="0.2">
+          <ellipse cx="183" cy="183.5" rx="183" ry="183.5" stroke="none"/>
+          <ellipse cx="183" cy="183.5" rx="181.5" ry="182" fill="none"/>
+        </g>
+        <g id="Ellipse_230" data-name="Ellipse 230" transform="translate(663 2085)" fill="none" stroke="#fff" stroke-width="3" opacity="0.2">
+          <circle cx="183.5" cy="183.5" r="183.5" stroke="none"/>
+          <circle cx="183.5" cy="183.5" r="182" fill="none"/>
+        </g>
+        <g id="Ellipse_233" data-name="Ellipse 233" transform="translate(1638.5 1976.5) rotate(90)" fill="none" stroke="#fff" stroke-width="3" opacity="0.2">
+          <circle cx="183.5" cy="183.5" r="183.5" stroke="none"/>
+          <circle cx="183.5" cy="183.5" r="182" fill="none"/>
+        </g>
+        <g id="Ellipse_236" data-name="Ellipse 236" transform="translate(389.5 1976.5) rotate(90)" fill="none" stroke="#fff" stroke-width="3" opacity="0.2">
+          <circle cx="183.5" cy="183.5" r="183.5" stroke="none"/>
+          <circle cx="183.5" cy="183.5" r="182" fill="none"/>
+        </g>
+        <g id="Ellipse_229" data-name="Ellipse 229" transform="translate(1089 2079)" fill="none" stroke="#fff" stroke-width="3" opacity="0.2">
+          <ellipse cx="183" cy="183.5" rx="183" ry="183.5" stroke="none"/>
+          <ellipse cx="183" cy="183.5" rx="181.5" ry="182" fill="none"/>
+        </g>
+        <g id="Ellipse_234" data-name="Ellipse 234" transform="translate(1871.5 1896.5) rotate(90)" fill="none" stroke="#fff" stroke-width="3" opacity="0.2">
+          <ellipse cx="183" cy="183.5" rx="183" ry="183.5" stroke="none"/>
+          <ellipse cx="183" cy="183.5" rx="181.5" ry="182" fill="none"/>
+        </g>
+        <g id="Ellipse_237" data-name="Ellipse 237" transform="translate(622.5 1896.5) rotate(90)" fill="none" stroke="#fff" stroke-width="3" opacity="0.2">
+          <ellipse cx="183" cy="183.5" rx="183" ry="183.5" stroke="none"/>
+          <ellipse cx="183" cy="183.5" rx="181.5" ry="182" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

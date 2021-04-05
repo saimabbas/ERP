@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="48" viewBox="0 0 200 48">
+  <g id="google_play_button" data-name="google play button" transform="translate(-525 -10882)">
+    <rect id="Rectangle_1273" data-name="Rectangle 1273" width="200" height="48" rx="5" transform="translate(525 10882)" fill="#a4c639"/>
+    <g id="Group_1839" data-name="Group 1839" transform="translate(0 1673)">
+      <text id="Available_on_the" data-name="Available on the" transform="translate(579 9229)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Available on the</tspan></text>
+      <text id="Google_Play" data-name="Google Play" transform="translate(579 9247)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Google Play</tspan></text>
+    </g>
+    <g id="playstore" transform="translate(520.189 10892)">
+      <g id="Group_1837" data-name="Group 1837" transform="translate(23.549 0.001)">
+        <path id="Path_1682" data-name="Path 1682" d="M66.25,9.616C63,7.8,57.776,4.875,49.679.341A1.952,1.952,0,0,0,47.962.117L61.855,14.01Z" transform="translate(-46.627 -0.012)" fill="#32bbff"/>
+        <path id="Path_1683" data-name="Path 1683" d="M24.884,1.93a2,2,0,0,0-.3.126,1.954,1.954,0,0,0-1.04,1.737v24.06a1.953,1.953,0,0,0,1.04,1.737,2.021,2.021,0,0,0,.3.127L38.777,15.823Z" transform="translate(-23.549 -1.825)" fill="#32bbff"/>
+        <path id="Path_1684" data-name="Path 1684" d="M61.849,255.98,47.956,269.873a1.932,1.932,0,0,0,1.717-.224c7.853-4.4,13.015-7.284,16.3-9.119l.27-.152Z" transform="translate(-46.621 -241.982)" fill="#32bbff"/>
+      </g>
+      <path id="Path_1685" data-name="Path 1685" d="M23.549,255.98v12.03a1.953,1.953,0,0,0,1.04,1.737,2.021,2.021,0,0,0,.3.127L38.777,255.98Z" transform="translate(0 -241.981)" fill="#2c9fd9"/>
+      <path id="Path_1686" data-name="Path 1686" d="M44.573.33a1.959,1.959,0,0,0-2.012-.1L56.539,14.21,61.144,9.6C57.891,7.785,52.671,4.864,44.573.33Z" transform="translate(-17.972 0)" fill="#29cc5e"/>
+      <path id="Path_1687" data-name="Path 1687" d="M56.539,252.126,42.561,266.1a1.945,1.945,0,0,0,2.012-.1c7.853-4.4,13.015-7.284,16.3-9.119l.27-.152Z" transform="translate(-17.972 -238.338)" fill="#d93f21"/>
+      <path id="Path_1688" data-name="Path 1688" d="M304.92,177.4a1.948,1.948,0,0,0-1-1.712s-1.247-.7-5.068-2.833L294.3,177.4l4.55,4.55c3.78-2.122,5.064-2.838,5.064-2.838A1.948,1.948,0,0,0,304.92,177.4Z" transform="translate(-255.947 -163.404)" fill="#ffd500"/>
+      <path id="Path_1689" data-name="Path 1689" d="M303.917,257.692a1.948,1.948,0,0,0,1-1.712H294.3l4.55,4.55C302.633,258.408,303.917,257.692,303.917,257.692Z" transform="translate(-255.947 -241.981)" fill="#fa0"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/swiper.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/colors-blue.css">
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+</head>
+
+<body style="overflow-x: hidden;" class="s-body-for-nav">
+	<button class="btn fixed-btn-1" data-toggle="modal" data-target="#myModal-rfq-mob-1">Fixed Button</button>
+
+	<div class="modal" id="myModal-rfq-mob-1">
+		<div class="modal-dialog epocure-signin-oh">
+			<div class="modal-content">
+				<div class="container-fluid" id="mmrfq-step-1">
+					<div class="row">
+						<div class="col-12 mmrfq-1">
+							<i class="fas fa-chevron-left" data-dismiss="modal"></i>
+							<!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+							<h1>RFQ Step 1</h1>
+							<span><i class="fas fa-times" data-dismiss="modal"></i></span>
+						</div>
+						<div class="col-12 mmrfq-13">
+							<p class="mb-0">Sign In</p>
+						</div>
+						<div class="col-12 mrfq-11">
+							<ul class="nav nav-pills">
+								<li class="nav-item">
+									<a class="nav-link active" data-toggle="pill" href="#mmrfq-phone">
+										<i class="fas fa-phone-alt"></i> By Phone
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#mmrfq-email">
+										<i class="fas fa-envelope"></i> By Email
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-12 mmrfq-12">
+							<div class="tab-content">
+								<div class="tab-pane active" id="mmrfq-phone">
+
+									<div class="mmrfq-phone-content">
+										<select class="form-control">
+											<option
+												style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">
+												+92</option>
+											<option
+												style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">
+												+92</option>
+											<option
+												style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">
+												+92</option>
+											<option
+												style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">
+												+92</option>
+											<option
+												style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">
+												+92</option>
+											<option
+												style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">
+												+92</option>
+										</select>
+										<input type="text" class="form-control">
+									</div>
+
+								</div>
+								<div class="tab-pane fade" id="mmrfq-email">
+									<div class="mmrfq-email-content">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 mmrfq-14">
+							<button class="btn mmrfq-btn-step-1">Proceed to Step 2</button>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid" id="mmrfq-step-2">
+					<div class="row">
+						<div class="col-12 mmrfq-1">
+							<i class="fas fa-chevron-left" data-dismiss="modal"></i>
+							<!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+							<h1>RFQ Step 2</h1>
+							<span><i class="fas fa-times" data-dismiss="modal"></i></span>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-7 pop-singin">
+							<p>Sign In</p>
+						</div>
+						<div class="col-7 pop-radio">
+							<p>OTP has been sent to tal******.com <a href="#">Change</a></p>
+							<h6>Enter One-Time Password (OTP) below</h6>
+						</div>
+						<div class="col-7 text-proceed">
+							<form class="form-inline pop-otp">
+								<input type="text" class="form-control" id='ist' maxlength="1"
+									onkeyup="clickEvent(this,'sec')">
+								<input type="text" class="form-control" id="sec" maxlength="1"
+									onkeyup="clickEvent(this,'third')">
+								<input type="text" class="form-control" id="third" maxlength="1"
+									onkeyup="clickEvent(this,'fourth')">
+								<input type="text" class="form-control" id="fourth" maxlength="1"
+									onkeyup="clickEvent(this,'fifth')">
+								<input type="text" class="form-control" id="fifth" maxlength="1"
+									onkeyup="clickEvent(this,'sixth')">
+								<input type="text" class="form-control" id="sixth" maxlength="1">
+							</form>
+							<button class="btn pop-proceed white-btn">Sign In</button>
+						</div>
+					</div>
+					<p class="resend-otp">Resend One Time Password (OTP)</p>
+					<p class="otp-sent">OTP already sent!</p>
+					<p class="please-wait">Please wait <span id="counter"></span> before resending</p>
+					<div class="row">
+						<div class="col-12 mmrfq-14">
+							<button class="btn mmrfq-btn-step-2">Proceed to Step 3</button>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid" id="mmrfq-step-3">
+					<div class="row">
+						<div class="col-12 mmrfq-1">
+							<i class="fas fa-chevron-left" data-dismiss="modal"></i>
+							<!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+							<h1>RFQ Step 3</h1>
+							<span><i class="fas fa-times" data-dismiss="modal"></i></span>
+						</div>
+						<div class="col-12 mmrfq-2">
+							<div class="mmrfq-2-field">
+								<label>Product Name</label>
+								<input class="form-control" type="text">
+							</div>
+							<span class="mmrfq-1-icon-box"><i class="fas fa-camera"></i></span>
+						</div>
+						<div class="col-12 mmrfq-3">
+							<label> Product Type </label>
+							<select class="form-control">
+								<option></option>
+								<option>Saudi Arabia</option>
+								<option>Iraq</option>
+								<option>Iran</option>
+								<option>India</option>
+								<option>USA</option>
+								<option>China</option>
+								<option>England</option>
+								<option>Korea</option>
+							</select>
+						</div>
+						<div class="col-12 mmrfq-2">
+							<div class="mmrfq-2-field">
+								<label>Vendor Location</label>
+								<input class="form-control" type="text">
+							</div>
+							<span class="mmrfq-1-icon-box"><i class="fas fa-map-marker-alt"></i></span>
+						</div>
+						<div class="col-12 mmrfq-4">
+							<p>Quantity</p>
+							<div class="mmrfq-4-counter">
+								<span><i class="fas fa-minus"></i></span>
+								<span>6</span>
+								<span><i class="fas fa-plus"></i></span>
+							</div>
+							<select class="form-control">
+								<option></option>
+								<option>Saudi Arabia</option>
+								<option>Iraq</option>
+								<option>Iran</option>
+								<option>India</option>
+								<option>USA</option>
+								<option>China</option>
+								<option>England</option>
+								<option>Korea</option>
+							</select>
+						</div>
+						<div class="col-12 mmrfq-heading">
+							<p>Attachments</p>
+						</div>
+						<div class="col-12 mmrfq-5">
+							<div class="mmrfq-5-main-box">
+								<div class="mmrfq-5-percent-box"></div>
+								<div class="mmrfq-5-left">
+									<i class="fas fa-file"></i>
+									<div class="mmrfq-5-left-text-box">
+										<p>Document 1.pdf</p>
+										<span>2.6MB of 4MB</span>
+									</div>
+								</div>
+								<div class="mmrfq-5-right">
+									<span>65%</span>
+									<i class="fas fa-times"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 mmrfq-5">
+							<div class="mmrfq-5-main-box">
+								<!-- <div class="mmrfq-5-percent-box"></div> -->
+								<div class="mmrfq-5-left">
+									<i class="fas fa-file"></i>
+									<div class="mmrfq-5-left-text-box">
+										<p>Document 1.pdf</p>
+										<span>Upload Complete 4MB</span>
+									</div>
+								</div>
+								<div class="mmrfq-5-right">
+									<span>100%</span>
+									<i class=""></i>
+									<!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+								</div>
+							</div>
+						</div>
+						<div class="col-12 mmrfq-6">
+							<span><img src="img/mfrp-up.svg"></span>
+						</div>
+						<div class="col-12 mmrfq-7">
+							<button class="btn mmrfq-btn-step-3">Proceed to Step 4</button>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid" id="mmrfq-step-4">
+					<div class="row">
+						<div class="col-12 mmrfq-1">
+							<i class="fas fa-chevron-left" data-dismiss="modal"></i>
+							<!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+							<h1>RFQ Step 4</h1>
+							<span><i class="fas fa-times" data-dismiss="modal"></i></span>
+						</div>
+						<div class="col-12 mmrfq-2">
+							<div class="mmrfq-2-field mmrfq-21-field">
+								<label>Detail</label>
+								<input class="form-control" type="text">
+							</div>
+						</div>
+						<div class="col-12 mmrfq-22">
+							<span>Supplier Capability</span>
+						</div>
+						<div class="col-12 mmrfq-4">
+							<p>Quantity</p>
+							<div class="mmrfq-4-counter">
+								<span><i class="fas fa-minus"></i></span>
+								<span>6</span>
+								<span><i class="fas fa-plus"></i></span>
+							</div>
+							<select class="form-control">
+								<option></option>
+								<option>Saudi Arabia</option>
+								<option>Iraq</option>
+								<option>Iran</option>
+								<option>India</option>
+								<option>USA</option>
+								<option>China</option>
+								<option>England</option>
+								<option>Korea</option>
+							</select>
+						</div>
+						<div class="col-12 mmrfq-22">
+							<span>Shipping and Payment</span>
+						</div>
+						<div class="col-12 mmrfq-23">
+							<div class="saim-universal-checkbox">
+								<input type="checkbox" name="abc-checkbox" id="suc-1">
+								<label for="suc-1">
+									<div class="su-tick"><i class="fas fa-check"></i></div>
+									<span>I agree to share my details with quoted supplier.</span>
+								</label>
+							</div>
+							<div class="saim-universal-checkbox">
+								<input type="checkbox" name="abc-checkbox" id="suc-2">
+								<label for="suc-2">
+									<div class="su-tick"><i class="fas fa-check"></i></div>
+									<span>I have read and agreed to abide by the Buying Request Posting Rules.</span>
+								</label>
+							</div>
+						</div>
+						<div class="col-12 mmrfq-7">
+							<button class="btn">PROCEED</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="bars-nav-box wow animated backInRight">
+		<a href="#">Features</a>
+		<a href="#">Why EazyProcure</a>
+		<a href="#" class="uc-btn">UseCase <i class="fas fa-chevron-down"></i></a>
+		<div class="use-case-mob">
+			<a href="#"><img src="img/dp-1.svg"> <span>Food Delivery</span></a>
+			<a href="#"><img src="img/dp-2.svg"> <span>Grocery Delivery</span></a>
+			<a href="#"><img src="img/dp-1.svg"> <span>Home Services</span></a>
+			<a href="#"><img src="img/dp-3.svg"> <span>Pharmacy On-Demand</span></a>
+			<a href="#"><img src="img/dp-4.svg"> <span>Salon At Home</span></a>
+		</div>
+		<a href="#">FAQ</a>
+		<a href="#">Contact Us</a>
+	</div>
+	<div class="container-fluid top-nav-s">
+		<div class="row top-eazy-nav-box">
+			<div class="col-sm-2 col-3 img-eazy-name">
+				<img src="img/ezp.svg">
+			</div>
+			<div class="offset-2 col-5 top-nav-eazy-options">
+				<a href="">Features</a>
+				<a href="">Why EazyProcure</a>
+				<div class="dropdown use-case-box">
+					<button type="button " class="btn dropdown-toggle" data-toggle="dropdown">
+						Use Case
+						<i class="fas fa-chevron-down"></i>
+					</button>
+					<div class="dropdown-menu dd-main-menu">
+						<div class="drop-down-opt-box">
+							<a class="dropdown-item" href="#">
+								<div class="dd-img-main-box">
+									<div class="dd-img-box">
+										<img src="img/dp-1.svg"> <span>Food Delivery</span>
+									</div>
+								</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<div class="dd-img-main-box">
+									<div class="dd-img-box">
+										<img src="img/dp-2.svg"> <span>Grocery Delivery</span>
+									</div>
+								</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<div class="dd-img-main-box">
+									<div class="dd-img-box mr-0">
+										<img src="img/dp-1.svg"> <span>Home Services</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="drop-down-opt-box">
+							<a class="dropdown-item" href="#">
+								<div class="dd-img-main-box">
+									<div class="dd-img-box">
+										<img src="img/dp-3.svg"> <span>Pharmacy On-Demand</span>
+									</div>
+								</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<div class="dd-img-main-box">
+									<div class="dd-img-box">
+										<img src="img/dp-4.svg"> <span>Salon At Home</span>
+									</div>
+								</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<div class="dd-img-main-box">
+									<div class="dd-img-box mr-0">
+										<img src="img/dp-5.svg"> <span>Dog Walking</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<a href="">FAQ</a>
+				<a href="">Contact Us</a>
+
+			</div>
+			<div class="col-sm-3 col-9 eazy-req-lan-box">
+				<button type="button" class="btn eazy-req-button">Send your Request</button>
+				<i class="fas fa-search-location s-end-searvh-icon"></i>
+				<div class="dropdown globe-lan-opt">
+					<button type="button " class="btn dropdown-toggle" data-toggle="dropdown">
+						<i class="fas fa-globe"></i>
+						<i class="fas fa-chevron-down"></i>
+					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">English</a>
+						<a class="dropdown-item" href="#">العربية</a>
+					</div>
+				</div>
+				<div class="bars-nav">
+					<i class="fas fa-bars bn-show"></i>
+					<i class="fas fa-times bn-hide"></i>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<h1 class="baba-heading">No Sign-Up Required, just <span>Sign-In</span></h1>
+	<p class="baba-paragraph">Collaborate with other business and consumers to work smartly on any request</p>
+
+	<img src="img/home-last-img-uf.svg" style="width: 100vw; margin-top: -3.5vw;">
+
+
+	<div class="container-fluid">
+		<!-- 3 Cards of Home -->
+		<div class="heading-c-c-i mt-sm-5 mt-4">
+			<span></span>
+			<h1>What we offer</h1>
+			<span></span>
+		</div>
+		<div class="row box-of-happiness">
+			<div class="col-sm-4 col-12 boh-box align-items-start">
+				<div class="boh-content">
+					<div class="boh-top-box">
+						<img src="img/boh-1.svg">
+					</div>
+					<div class="boh-text-box">
+						<h6>Become a steller seller on EazyProcure</h6>
+						<p>Big benefit to instant access to a countless number of local or
+						global suppliers who sell just about any product to low
+						wholesale pricing.</p>
+					</div>
+					<button class="btn">See Content Catalog</button>
+				</div>
+			</div>
+			<div class="col-sm-4 col-12 boh-box align-items-start">
+				<div class="boh-content">
+					<div class="boh-top-box">
+						<img src="img/boh-2.svg">
+					</div>
+					<div class="boh-text-box">
+						<h6>One-Stop fulfillment solution for your
+						ecommerce store</h6>
+						<p>Big benefit to instant access to a countless number of local or
+						global suppliers who sell just about any product to low
+						wholesale pricing.</p>
+					</div>
+					<button class="btn">See Content Catalog</button>
+				</div>
+			</div>
+			<div class="col-sm-4 col-12 boh-box align-items-start">
+				<div class="boh-content">
+					<div class="boh-top-box">
+						<img src="img/boh-3.svg">
+					</div>
+					<div class="boh-text-box">
+						<h6>Start your online business with ZERO cost</h6>
+						<p>The free RFQ service enables you to receive quotations from
+						multiple suppliers with any specific region, emirate or city, in a
+						matter of days.</p>
+					</div>
+					<button class="btn">See Content Catalog</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<!-- Customize, Connect, Integrate -->
+		<div class="heading-c-c-i mt-sm-5 mt-4">
+			<h1>Customize, Connect, Integrate</h1>
+		</div>
+		<div class="row minimal-cards-of-home">
+			<div class="col-sm-3 my-sm-4 my-0 mt-3 minimal-card-1">
+				<div class="minimal-card-1-svg mb-2">
+					<img src="img/Outline.svg" alt="payment-method">
+				</div>
+				<div class="minimal-card-1-text">
+					<h2>Request For Quotation (RFQ)</h2>
+					<p>Content catalog is live. Review now and start building your customized iPortal</p>
+				</div>
+				<div class="minimal-card-1-lm">
+					<a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+			<div class="col-sm-3 my-sm-4 my-0 mt-3 minimal-card-2">
+				<div class="minimal-card-2-svg">
+					<img src="img/approval.svg" alt="payment-method">
+				</div>
+				<div class="minimal-card-1-text">
+					<h2>Request For Proposal (RFP)</h2>
+					<p>Content catalog is live. Review now and start building your customized iPortal</p>
+				</div>
+				<div class="minimal-card-1-lm">
+					<a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+			<div class="col-sm-3 my-sm-4 my-0 mt-3 minimal-card-3">
+				<div class="minimal-card-1-svg">
+					<img src="img/auction (1).svg" alt="payment-method">
+				</div>
+				<div class="minimal-card-1-text">
+					<h2>Request For Tender (RFT)</h2>
+					<p>Content catalog is live. Review now and start building your customized iPortal</p>
+				</div>
+				<div class="minimal-card-1-lm">
+					<a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+			<div class="col-sm-3 my-sm-4 my-0 mt-3 minimal-card-4">
+				<div class="minimal-card-1-svg">
+					<img src="img/payment-method.svg" alt="payment-method">
+				</div>
+				<div class="minimal-card-1-text">
+					<h2>Payments</h2>
+					<p>Content catalog is live. Review now and start building your customized iPortal</p>
+				</div>
+				<div class="minimal-card-1-lm">
+					<a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<img src="img/Path 3016.svg" class="gray-tri">
+			<div class="heading-c-c-i mt-sm-0 mt-3">
+				<h1>How to Create a Digital Proposal</h1>
+			</div>
+			<div class="col-sm-10 col-12 offset-sm-2 offset-0 my-4">
+				<div class="row align-items-center end-6-b ">
+					<div class="col-sm-3 col-3">
+						<div class="long-card-img">
+							<img src="img/login.svg" alt="login">
+						</div>
+					</div>
+					<div class="col-sm-1 col-2">
+						<div class="long-card-number">
+							<h1 style="margin-left: 3vw;">1</h1>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="long-card-p">
+							<h5>Sign In</h5>
+							<p>Content catalog is live. Review now and start building your customized iPortal. Content
+								catalog is live.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-10 col-12 offset-sm-2 offset-0 my-4">
+				<div class="row align-items-center end-6-b">
+					<img class="home-rectangle-right blue-tri-edit-2" src="img/right-img-end-i.svg"
+						alt="Home Rectangle Right">
+
+					<div class="col-sm-1 col-2">
+						<div class="long-card-number">
+							<h1>2</h1>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="long-card-p">
+							<h5>Draft & Publish Request</h5>
+							<p>Content catalog is live. Review now and start building your customized iPortal. Content
+								catalog is live.</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-3">
+						<div class="long-card-img">
+							<img src="img/document.svg" alt="document">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-10 col-12 offset-sm-2 offset-0 my-4">
+				<div class="row align-items-center end-6-b">
+
+					<div class="col-sm-3 col-3">
+						<div class="long-card-img">
+							<img src="img/for supplier.svg" alt="login">
+						</div>
+					</div>
+					<div class="col-sm-1 col-2">
+						<div class="long-card-number long-card-p-gray">
+							<h1>3</h1>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="long-card-p long-card-p-gray">
+							<h5>Prepare & Submit Proposal</h5>
+							<p>Content catalog is live. Review now and start building your customized iPortal. Content
+								catalog is live.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-10 col-12 offset-sm-2 offset-0 my-4">
+				<div class="row align-items-center end-6-b">
+					<div class="col-sm-1 col-2">
+						<div class="long-card-number">
+							<h1>4</h1>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="long-card-p">
+							<h5>Review & Shortlist Proposal</h5>
+							<p>Content catalog is live. Review now and start building your customized iPortal. Content
+								catalog is live.</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-3">
+						<div class="long-card-img">
+							<img src="img/checked.svg" alt="document">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-10 col-12 offset-sm-2 offset-0 my-4">
+				<div class="row align-items-center end-6-b">
+					<div class="col-sm-3 col-3">
+						<div class="long-card-img">
+							<img src="img/award to supplier.svg" alt="login">
+						</div>
+					</div>
+					<div class="col-sm-1 col-2">
+						<div class="long-card-number">
+							<h1>5</h1>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="long-card-p">
+							<h5>Award to Supplier</h5>
+							<p>Content catalog is live. Review now and start building your customized iPortal. Content
+								catalog is live.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-10 col-12 offset-sm-2 offset-0 my-4">
+				<div class="row align-items-center end-6-b">
+					<div class="col-sm-1 col-2">
+						<div class="long-card-number">
+							<h1>6</h1>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="long-card-p">
+							<h5>Generate Purchase Order</h5>
+							<p>Content catalog is live. Review now and start building your customized iPortal. Content
+								catalog is live.</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-3">
+						<div class="long-card-img">
+							<img src="img/Product_2_.svg" alt="login">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<!-- Procurement processes kept simple, made smarter -->
+		<div class="heading-c-c-i my-4">
+			<h1 class="mb-3">Procurement processes kept simple, made smarter</h1>
+		</div>
+		<div class="row smile-smart-card">
+			<div class="col-sm-3 col-5">
+				<div class="card">
+					<div class="main-content">
+						<div class="smile-smart-card-svg">
+							<img class="my-lg-4 my-2" src="img/easy and secure.svg" alt="easy and secure">
+						</div>
+						<div class="smile-smart-card-text">
+							<h5 class="mb-lg-4 mb-2 mt-3 mt-lg-2">Easy & Secure</h5>
+							<p class="my-md-4 my-lg-5 my-0 mx-1 mx-md-2">Retrieve and verify supplier data like business
+								reports, financial and credit risk data</p>
+						</div>
+					</div>
+					<div class="overlay-content">
+						<div class="blue-card-hover">
+							<img src="img/blue-hover.svg" alt="Card Hover">
+						</div>
+						<div class="blue-card-hover-text">
+							<h5>Advertise your Products</h5>
+							<p>Retrieve and verify supplier data like business reports, financial and credit risk data
+								Retrieve and verify supplier data like business reports, financial and credit risk data
+							</p>
+							<a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-5">
+				<div class="card">
+					<div class="main-content">
+						<div class="smile-smart-card-svg">
+							<img class="my-lg-4 my-2" src="img/automated process.svg" alt="easy and secure">
+						</div>
+						<div class="smile-smart-card-text">
+							<h5 class="mb-lg-4 mb-2 mt-3 mt-lg-2">Automated Process</h5>
+							<p class="my-md-4 my-lg-5 my-0 mx-1 mx-md-2">Retrieve and verify supplier data like business
+								reports, financial and credit risk data</p>
+						</div>
+					</div>
+					<div class="overlay-content">
+						<div class="blue-card-hover">
+							<img src="img/blue-hover.svg" alt="Card Hover">
+						</div>
+						<div class="blue-card-hover-text">
+							<h5>Advertise your Products</h5>
+							<p>Retrieve and verify supplier data like business reports, financial and credit risk data
+								Retrieve and verify supplier data like business reports, financial and credit risk data
+							</p>
+							<a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-5">
+				<div class="card">
+					<div class="main-content">
+						<div class="smile-smart-card-svg">
+							<img class="my-lg-4 my-2" src="img/faster analysis.svg" alt="easy and secure">
+						</div>
+						<div class="smile-smart-card-text">
+							<h5 class="mb-lg-4 mb-2 mt-3 mt-lg-2">Faster Analysis</h5>
+							<p class="my-md-4 my-lg-5 my-0 mx-1 mx-md-2">Retrieve and verify supplier data like business
+								reports, financial and credit risk data</p>
+						</div>
+					</div>
+					<div class="overlay-content">
+						<div class="blue-card-hover">
+							<img src="img/blue-hover.svg" alt="Card Hover">
+						</div>
+						<div class="blue-card-hover-text">
+							<h5>Advertise your Products</h5>
+							<p>Retrieve and verify supplier data like business reports, financial and credit risk data
+								Retrieve and verify supplier data like business reports, financial and credit risk data
+							</p>
+							<a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-5">
+				<div class="card">
+					<div class="main-content">
+						<div class="smile-smart-card-svg">
+							<img class="my-lg-4 my-2" src="img/etenders.svg" alt="easy and secure">
+						</div>
+						<div class="smile-smart-card-text">
+							<h5 class="mb-lg-4 mb-2 mt-3 mt-lg-2">Tenders & Proposals</h5>
+							<p class="my-md-4 my-lg-5 my-0 mx-1 mx-md-2">Retrieve and verify supplier data like business
+								reports, financial and credit risk data</p>
+						</div>
+					</div>
+					<div class="overlay-content">
+						<div class="blue-card-hover">
+							<img src="img/blue-hover.svg" alt="Card Hover">
+						</div>
+						<div class="blue-card-hover-text">
+							<h5>Advertise your Products</h5>
+							<p>Retrieve and verify supplier data like business reports, financial and credit risk data
+								Retrieve and verify supplier data like business reports, financial and credit risk data
+							</p>
+							<a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-5 mt-sm-5 ">
+				<div class="card">
+					<div class="main-content">
+						<div class="smile-smart-card-svg">
+							<img class="my-lg-4 my-2" src="img/business integration.svg" alt="easy and secure">
+						</div>
+						<div class="smile-smart-card-text">
+							<h5 class="mb-lg-4 mb-2 mt-3 mt-lg-2">Business Integration</h5>
+							<p class="my-md-4 my-lg-5 my-0 mx-1 mx-md-2">Retrieve and verify supplier data like business
+								reports, financial and credit risk data</p>
+						</div>
+					</div>
+					<div class="overlay-content">
+						<div class="blue-card-hover">
+							<img src="img/blue-hover.svg" alt="Card Hover">
+						</div>
+						<div class="blue-card-hover-text">
+							<h5>Advertise your Products</h5>
+							<p>Retrieve and verify supplier data like business reports, financial and credit risk data
+								Retrieve and verify supplier data like business reports, financial and credit risk data
+							</p>
+							<a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-5 mt-sm-5 ">
+				<div class="card">
+					<div class="main-content">
+						<div class="smile-smart-card-svg">
+							<img class="my-lg-4 my-2" src="img/advertise.svg" alt="easy and secure">
+						</div>
+						<div class="smile-smart-card-text">
+							<h5 class="mb-lg-4 mb-2 mt-3 mt-lg-2">Advertise Your Products</h5>
+							<p class="my-md-4 my-lg-5 my-0 mx-1 mx-md-2">Retrieve and verify supplier data like business
+								reports, financial and credit risk data</p>
+						</div>
+					</div>
+					<div class="overlay-content">
+						<div class="blue-card-hover">
+							<img src="img/blue-hover.svg" alt="Card Hover">
+						</div>
+						<div class="blue-card-hover-text">
+							<h5>Advertise your Products</h5>
+							<p>Retrieve and verify supplier data like business reports, financial and credit risk data
+								Retrieve and verify supplier data like business reports, financial and credit risk data
+							</p>
+							<a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-5 mt-sm-5 ">
+				<div class="card">
+					<div class="main-content">
+						<div class="smile-smart-card-svg">
+							<img class="my-lg-4 my-2" src="img/collaboration.svg" alt="easy and secure">
+						</div>
+						<div class="smile-smart-card-text">
+							<h5 class="mb-lg-4 mb-2 mt-3 mt-lg-2">Collaboration</h5>
+							<p class="my-md-4 my-lg-5 my-0 mx-1 mx-md-2">Retrieve and verify supplier data like business
+								reports, financial and credit risk data</p>
+						</div>
+					</div>
+					<div class="overlay-content">
+						<div class="blue-card-hover">
+							<img src="img/blue-hover.svg" alt="Card Hover">
+						</div>
+						<div class="blue-card-hover-text">
+							<h5>Advertise your Products</h5>
+							<p>Retrieve and verify supplier data like business reports, financial and credit risk data
+								Retrieve and verify supplier data like business reports, financial and credit risk data
+							</p>
+							<a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 col-5 mt-sm-5 ">
+				<div class="card">
+					<div class="main-content">
+						<div class="smile-smart-card-svg">
+							<img class="my-lg-4 my-2" src="img/business connectivity.svg" alt="easy and secure">
+						</div>
+						<div class="smile-smart-card-text">
+							<h5 class="mb-lg-4 mb-2 mt-3 mt-lg-2">Business Connectivity</h5>
+							<p class="my-md-4 my-lg-5 my-0 mx-1 mx-md-2">Retrieve and verify supplier data like business
+								reports, financial and credit risk data</p>
+						</div>
+					</div>
+					<div class="overlay-content">
+						<div class="blue-card-hover">
+							<img src="img/blue-hover.svg" alt="Card Hover">
+						</div>
+						<div class="blue-card-hover-text">
+							<h5>Advertise your Products</h5>
+							<p>Retrieve and verify supplier data like business reports, financial and credit risk data
+								Retrieve and verify supplier data like business reports, financial and credit risk data
+							</p>
+							<a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid competitive-mob">
+		<!-- Our Competitive Advantage -->
+		<div class="heading-c-c-i">
+			<h1 class="my-3">Our Competitive Advantage</h1>
+		</div>
+		<div class="row competitive-advantage">
+			<div class="col-12 col-in-col-center">
+				<div class="row">
+					<div class="col-sm-2 col-3 offset-sm-2 offset-0">
+						<img src="img/number-1.svg" alt="">
+						<h2 class="number-count py-sm-3 py-0"><span class="counter">80</span>+</h2>
+						<h6>Registered Professionals</h6>
+					</div>
+					<div class="col-sm-2 col-3">
+						<img src="img/number-2.svg" alt="">
+						<h2 class="number-count py-sm-3 py-0"><span class="counter">180</span>+</h2>
+						<h6>Registered Professionals</h6>
+					</div>
+					<div class="col-sm-2 col-3">
+						<img src="img/number-3.svg" alt="">
+						<h2 class="number-count py-sm-3"><span class="counter">570</span>+</h2>
+						<h6>Registered Professionals</h6>
+					</div>
+					<div class="col-sm-2 col-3 no-border">
+						<img src="img/report.svg" alt="">
+						<h2 class="number-count py-sm-3"><span class="counter">900</span>+</h2>
+						<h6>Registered Professionals</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid number-up-mob">
+		<!-- Number Up Counter of Home -->
+		<div class="heading-c-c-i my-4">
+			<h1 class="">Integrates with your Favorite Tools</h1>
+		</div>
+		<div class="row fav-tools">
+			<div class="col-sm-2 col-4"><img src="img/pic-1.svg" alt=""></div>
+			<div class="col-sm-2 col-4"><img src="img/pic-2.svg" alt=""></div>
+			<div class="col-sm-2 col-4"><img src="img/pic-3.svg" alt=""></div>
+			<div class="col-sm-2 col-4"><img src="img/pic-4.svg" alt=""></div>
+			<div class="col-sm-2 col-4"><img src="img/pic-5.svg" alt=""></div>
+			<div class="col-sm-2 col-4"><img src="img/pic-6.svg" alt=""></div>
+			<div class="col-sm-2 col-4 special-blog-haha"><img src="img/pic-7.svg" alt=""></div>
+			<div class="col-sm-2 col-4 special-blog-haha"><img src="img/pic-8.svg" alt=""></div>
+			<div class="col-sm-2 col-4 special-blog-haha"><img src="img/pic-9.svg" alt=""></div>
+			<div class="col-sm-2 col-4 special-blog-haha"><img src="img/pic-10.svg" alt=""></div>
+			<div class="col-sm-2 col-4 special-blog-haha"><img src="img/pic-11.svg" alt=""></div>
+			<div class="col-sm-2 col-4 special-blog-haha"><img src="img/pic-12.svg" alt=""></div>
+		</div>
+	</div>
+
+	<div class="container-fluid testimonies-just-mob" style="background: url('img/blue-4.svg');">
+		<div class="row">
+			<div class="col-12 tjb-col">
+				<h1 class="just-mob-testimony-heading">Client Testimonies</h1>
+				<div class="just-mob-swiper-testimony">
+					<div class="swiper-wrapper">
+
+						<div class="swiper-slide col-12 p-0">
+							<img class="left-quote-just" src="img/left-quote.svg">
+							<p>iPortal ERP by 5D Solutions gives me a competitive advantage iPortal ERP by 5D Solutions
+								gives me a competitive advantage</p>
+							<img class="right-quote-just" src="img/right-quote.svg">
+						</div>
+						<div class="swiper-slide col-12 p-0">
+							<img class="left-quote-just" src="img/left-quote.svg">
+							<p>iPortal ERP by 5D Solutions gives me a competitive advantage iPortal ERP by 5D Solutions
+								gives me a competitive advantage</p>
+							<img class="right-quote-just" src="img/right-quote.svg">
+						</div>
+						<div class="swiper-slide col-12 p-0">
+							<img class="left-quote-just" src="img/left-quote.svg">
+							<p>iPortal ERP by 5D Solutions gives me a competitive advantage iPortal ERP by 5D Solutions
+								gives me a competitive advantage</p>
+							<img class="right-quote-just" src="img/right-quote.svg">
+						</div>
+						<div class="swiper-slide col-12 p-0">
+							<img class="left-quote-just" src="img/left-quote.svg">
+							<p>iPortal ERP by 5D Solutions gives me a competitive advantage iPortal ERP by 5D Solutions
+								gives me a competitive advantage</p>
+							<img class="right-quote-just" src="img/right-quote.svg">
+						</div>
+						<div class="swiper-slide col-12 p-0">
+							<img class="left-quote-just" src="img/left-quote.svg">
+							<p>iPortal ERP by 5D Solutions gives me a competitive advantage iPortal ERP by 5D Solutions
+								gives me a competitive advantage</p>
+							<img class="right-quote-just" src="img/right-quote.svg">
+						</div>
+						<div class="swiper-slide col-12 p-0">
+							<img class="left-quote-just" src="img/left-quote.svg">
+							<p>iPortal ERP by 5D Solutions gives me a competitive advantage iPortal ERP by 5D Solutions
+								gives me a competitive advantage</p>
+							<img class="right-quote-just" src="img/right-quote.svg">
+						</div>
+						<div class="swiper-slide col-12 p-0">
+							<img class="left-quote-just" src="img/left-quote.svg">
+							<p>iPortal ERP by 5D Solutions gives me a competitive advantage iPortal ERP by 5D Solutions
+								gives me a competitive advantage</p>
+							<img class="right-quote-just" src="img/right-quote.svg">
+						</div>
+						<div class="swiper-slide col-12 p-0">
+							<img class="left-quote-just" src="img/left-quote.svg">
+							<p>iPortal ERP by 5D Solutions gives me a competitive advantage iPortal ERP by 5D Solutions
+								gives me a competitive advantage</p>
+							<img class="right-quote-just" src="img/right-quote.svg">
+						</div>
+
+					</div>
+				</div>
+				<p class="just-read-stories">Read our customers' stories</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid testimonies-mob" style="padding-left: 0; padding-right: 0;">
+		<!-- Client Testimonials -->
+		<div class=" testimonies mt-5">
+			<div class="heading-c-c-i mt-4">
+				<h1 class="mb-5">Client Testimonies</h1>
+			</div>
+			<div class="swiper-container overflow-hidden sc-end-infinite ">
+				<div class="swiper-wrapper testimonies-container">
+					<div class="swiper-slide testimonies-tab col-sm-4">
+						<img class="left-quote" src="img/left-quote.svg" alt="left quote">
+						<p>iPortal ERP by 5D Solutions gives me a competitive advantageiPortal ERP by 5D Solutions gives
+							me a competitive advantage</p>
+						<img class="right-quote" src="img/right-quote.svg" alt="right quote">
+						<div class="testimonies-details">
+							<img src="img/signature.svg" alt="signature">
+							<p>Founder of Adobe Inc. Ltd. 1</p>
+							<p>Commercial proposals with iPortal ERP</p>
+						</div>
+					</div>
+					<div class="swiper-slide testimonies-tab col-sm-4">
+						<img class="left-quote" src="img/left-quote.svg" alt="left quote">
+						<p>iPortal ERP by 5D Solutions gives me a competitive advantageiPortal ERP by 5D Solutions gives
+							me a competitive advantage</p>
+						<img class="right-quote" src="img/right-quote.svg" alt="right quote">
+						<div class="testimonies-details">
+							<img src="img/signature.svg" alt="signature">
+							<p>Founder of Adobe Inc. Ltd. 2</p>
+							<p>Commercial proposals with iPortal ERP</p>
+						</div>
+					</div>
+					<div class="swiper-slide testimonies-tab col-sm-4">
+						<img class="left-quote" src="img/left-quote.svg" alt="left quote">
+						<p>iPortal ERP by 5D Solutions gives me a competitive advantageiPortal ERP by 5D Solutions gives
+							me a competitive advantage</p>
+						<img class="right-quote" src="img/right-quote.svg" alt="right quote">
+						<div class="testimonies-details">
+							<img src="img/signature.svg" alt="signature">
+							<p>Founder of Adobe Inc. Ltd. 3</p>
+							<p>Commercial proposals with iPortal ERP</p>
+						</div>
+					</div>
+					<div class="swiper-slide testimonies-tab col-sm-4">
+						<img class="left-quote" src="img/left-quote.svg" alt="left quote">
+						<p>iPortal ERP by 5D Solutions gives me a competitive advantageiPortal ERP by 5D Solutions gives
+							me a competitive advantage</p>
+						<img class="right-quote" src="img/right-quote.svg" alt="right quote">
+						<div class="testimonies-details">
+							<img src="img/signature.svg" alt="signature">
+							<p>Founder of Adobe Inc. Ltd. 4</p>
+							<p>Commercial proposals with iPortal ERP</p>
+						</div>
+					</div>
+					<div class="swiper-slide testimonies-tab col-sm-4">
+						<img class="left-quote" src="img/left-quote.svg" alt="left quote">
+						<p>iPortal ERP by 5D Solutions gives me a competitive advantageiPortal ERP by 5D Solutions gives
+							me a competitive advantage</p>
+						<img class="right-quote" src="img/right-quote.svg" alt="right quote">
+						<div class="testimonies-details">
+							<img src="img/signature.svg" alt="signature">
+							<p>Founder of Adobe Inc. Ltd. 5</p>
+							<p>Commercial proposals with iPortal ERP</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="testimonies-details-container">
+				<div class="testimonies-details col-sm-9">
+					<img src="img/signature.svg" alt="signature">
+					<p>Founder of Adobe Inc. Ltd.</p>
+					<p>Commercial proposals with iPortal ERP</p>
+				</div>
+			</div>
+			<div class="customer-stories my-3">
+				<a href="#">Read Our Customers' Stories</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<!-- Blog Posts -->
+		<div class="heading-c-c-i mt-4">
+			<h1 class="mb-4">Our Latest Blog Posts</h1>
+		</div>
+		<div class="row blog-posts">
+			<div class="col-sm-4 col-7">
+				<div class="blog-card">
+					<img src="img/blog-1.png" alt="" class="blog-image">
+				</div>
+				<div class="blog-outline">
+					<h6 class="mt-3">Handle Confidential Information</h6>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+						ut labore et</p>
+					<p class="mb-5"><a href="#">Learn More <i class="fas fa-arrow-right"></i></a></p>
+				</div>
+			</div>
+			<div class="col-sm-4 col-7">
+				<div class="blog-card">
+					<img src="img/blog-1.png" alt="" class="blog-image">
+				</div>
+				<div class="blog-outline">
+					<h6 class="mt-3">Handle Confidential Information</h6>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+						ut labore et</p>
+					<p class="mb-5"><a href="#">Learn More <i class="fas fa-arrow-right"></i></a></p>
+				</div>
+			</div>
+			<div class="col-sm-4 special-blog-haha col-7">
+				<div class="blog-card">
+					<img src="img/blog-1.png" alt="" class="blog-image">
+				</div>
+				<div class="blog-outline">
+					<h6 class="mt-3">Handle Confidential Information</h6>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+						ut labore et</p>
+					<p class="mb-5"><a href="#">Learn More <i class="fas fa-arrow-right"></i></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid footer-absolute mt-5">
+		<div class="row pt-sm-5 pt-3 pb-3 footer-fluid footer-part-1">
+			<div class="col-sm-2 col-6">
+				<h5>Customer Services</h5>
+				<h6>Help Center</h6>
+				<h6>Contact US</h6>
+				<h6>Report an Issue</h6>
+				<h6>Submit a Proposal</h6>
+				<h6>Policies & Rules</h6>
+				<h6>Give Feedback</h6>
+			</div>
+			<div class="col-sm-2 mob-footer-display col-6">
+				<h5>About Us</h5>
+				<h6>About iPortal ERP</h6>
+				<h6>About 5D Solutions</h6>
+				<h6>Sitemap</h6>
+			</div>
+			<div class="col-sm-2 mob-footer-display col-6 ">
+				<h5>Using ERP Solutions</h5>
+				<h6>All Services</h6>
+				<h6>Request for Quotation</h6>
+				<h6>For Suppliers</h6>
+			</div>
+			<div class="col-sm-2 mob-footer-display col-6 ">
+				<h5>Supplier Services</h5>
+				<h6>Supplier Membership</h6>
+				<h6>Learning Center</h6>
+				<h6>Partner Program</h6>
+			</div>
+			<div class="col-sm-2 col-6 ">
+				<h5>Trade Services</h5>
+				<h6>Trade Assurance</h6>
+				<h6>Business Identity</h6>
+				<h6>Logistics Service</h6>
+				<h6>Monitoring Service</h6>
+				<h6>Payment Terms</h6>
+				<h6>Credits</h6>
+			</div>
+		</div>
+		<div class="row py-sm-4 py-2 footer-fluid footer-part-2">
+			<div class="col-sm-4 mob-footer-display pb-sm-0 py-2 footer-part-2-part-1">
+				<p>Download</p>
+				<a href="#"><img src="img/app store button.svg" alt="App Store"></a>
+				<a href="#"><img src="img//google play button.svg" alt="Google Play Store"></a>
+			</div>
+			<div class="col-sm-4 mob-footer-display footer-part-2-part-2">
+				<p>5D Sol iPortal ERP App</p>
+				<a href="#"><img src="img//5D app.svg" alt=""></a>
+			</div>
+			<div class="col-sm-4 col-12 footer-part-2-part-3 mob-footer-links">
+				<p>Follow Us</p>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+				<a href="#"><i class="fab fa-facebook"></i></a>
+			</div>
+			<div class="col-12 pt-sm-4 pt-0 mob-ur-mob">
+				<p class="mob-lines-mob">iPortal.com Site: International - English - </p>
+				<p class="mob-lines-mob">5D Solutionos Group | ERP | iPortal | Facewall | Policies | Sitemap</p>
+				<p class="mob-ur">Browser Alphabetically: About Us | Contact Us | Home | Language | Suppliers</p>
+				<p class="mob-ur">Service Usage Policy - Intellectual Property Protection - Privacy Policy - Terms of
+					Use - User Information Legal Enquiry Guide</p>
+				<br class="mob-footer-display">
+				<p class="mob-lines-mob">5D SOLUTIONS © 2020</p>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+		integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+		integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+		crossorigin="anonymous"></script>
+	<script src="js/iPortal.js"></script>
+	<script>
+		$(".mmrfq-btn-step-1").click(function () {
+			$("#mmrfq-step-1").css({ "display": "none" });
+			$("#mmrfq-step-2").css({ "display": "block" });
+		});
+		$(".mmrfq-btn-step-2").click(function () {
+			$("#mmrfq-step-2").css({ "display": "none" });
+			$("#mmrfq-step-3").css({ "display": "block" });
+		});
+		$(".mmrfq-btn-step-3").click(function () {
+			$("#mmrfq-step-3").css({ "display": "none" });
+			$("#mmrfq-step-4").css({ "display": "block" });
+		});
+	</script>
+	<script>
+		$('.counter').counterUp({
+			delay: 10,
+			time: 1500
+		});
+	</script>
+
+
+
+
+	<script>
+		$(".uc-btn").click(function () {
+			$(".use-case-mob").slideToggle(500);
+			$(".uc-btn i").toggleClass("fa-chevron-up");
+			$(".uc-btn i").toggleClass("fa-chevron-down");
+		});
+	</script>
+
+
+
+	<script>
+		$(".bn-show").click(function () {
+			$(".bn-show").css({ "display": "none" });
+			$(".bn-hide").css({ "display": "flex" });
+			// $(".bars-nav-box").addClass("wow animated backInRight");
+			// $(".bars-nav-box").css({"transform":"translate(0,0)"});
+			$(".bars-nav-box").css({ "display": "flex" });
+		});
+		$(".bn-hide").click(function () {
+			$(".bn-show").css({ "display": "flex" });
+			$(".bn-hide").css({ "display": "none" });
+			// $(".bars-nav-box").css({"transform":"translate(100%,0)"});
+			$(".bars-nav-box").css({ "display": "none" });
+		});
+	</script>
+
+
+
+
+</body>
+
+</html>

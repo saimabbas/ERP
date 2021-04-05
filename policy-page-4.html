@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RETURN AND REFUND POLICY</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css.map">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="s-body-for-nav"  style="overflow-x: hidden;"  >
+
+
+    <button class="btn fixed-btn-1"  data-toggle="modal" data-target="#myModal-rfq-mob-1">Fixed Button</button>
+
+    <div class="modal" id="myModal-rfq-mob-1">
+      <div class="modal-dialog epocure-signin-oh">
+          <div class="modal-content">
+              <div class="container-fluid" id="mmrfq-step-1">
+                  <div class="row">
+                      <div class="col-12 mmrfq-1">
+                          <i class="fas fa-chevron-left" data-dismiss="modal"></i> <!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+                          <h1>RFQ Step 1</h1>
+                          <span><i class="fas fa-times" data-dismiss="modal"></i></span>
+                      </div>
+                      <div class="col-12 mmrfq-13">
+                          <p class="mb-0">Sign In</p>
+                      </div>
+                      <div class="col-12 mrfq-11">
+                          <ul class="nav nav-pills">
+                              <li class="nav-item">
+                                <a class="nav-link active" data-toggle="pill" href="#mmrfq-phone">
+                                    <i class="fas fa-phone-alt"></i> By Phone
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#mmrfq-email">
+                                    <i class="fas fa-envelope"></i> By Email
+                                </a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="col-12 mmrfq-12">
+                          <div class="tab-content">
+                            <div class="tab-pane active" id="mmrfq-phone">
+  
+                              <div class="mmrfq-phone-content">
+                                  <select class="form-control">
+                                      <option style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">+92</option>
+                                      <option style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">+92</option>
+                                      <option style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">+92</option>
+                                      <option style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">+92</option>
+                                      <option style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">+92</option>
+                                      <option style="background: url('img/united-kingdom-flag-country-nation-union-empire-33115.svg');">+92</option>
+                                  </select>
+                                  <input type="text" class="form-control">
+                              </div>
+  
+                            </div>
+                            <div class="tab-pane fade" id="mmrfq-email">
+                                <div class="mmrfq-email-content">
+                                  <input type="text" class="form-control">
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-12 mmrfq-14">
+                          <button class="btn mmrfq-btn-step-1">Proceed to Step 2</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="container-fluid" id="mmrfq-step-2">
+                          <div class="row">
+                              <div class="col-12 mmrfq-1">
+                                  <i class="fas fa-chevron-left" data-dismiss="modal"></i> <!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+                                  <h1>RFQ Step 2</h1>
+                                  <span><i class="fas fa-times" data-dismiss="modal"></i></span>
+                              </div>
+                          </div>
+                          <div class="row justify-content-center">
+                              <div class="col-7 pop-singin">
+                                  <p>Sign In</p>
+                              </div>
+                              <div class="col-7 pop-radio" >
+                                  <p>OTP has been sent to tal******.com <a href="#">Change</a></p>
+                                  <h6>Enter One-Time Password (OTP) below</h6>
+                              </div>
+                              <div class="col-7 text-proceed">
+                                  <form class="form-inline pop-otp">
+                                      <input type="text" class="form-control" id='ist' maxlength="1" onkeyup="clickEvent(this,'sec')">
+                                      <input type="text" class="form-control" id="sec" maxlength="1" onkeyup="clickEvent(this,'third')">
+                                      <input type="text" class="form-control" id="third" maxlength="1" onkeyup="clickEvent(this,'fourth')">
+                                      <input type="text" class="form-control" id="fourth" maxlength="1" onkeyup="clickEvent(this,'fifth')">
+                                      <input type="text" class="form-control" id="fifth" maxlength="1" onkeyup="clickEvent(this,'sixth')">
+                                      <input type="text" class="form-control" id="sixth" maxlength="1">
+                                  </form>
+                                  <button class="btn pop-proceed white-btn">Sign In</button>
+                              </div>
+                          </div>
+                          <p class="resend-otp">Resend One Time Password (OTP)</p>
+                          <p class="otp-sent">OTP already sent!</p>
+                          <p class="please-wait">Please wait <span id="counter"></span> before resending</p>
+                          <div class="row">
+                              <div class="col-12 mmrfq-14">
+                                  <button class="btn mmrfq-btn-step-2">Proceed to Step 3</button>
+                              </div>
+                          </div>
+              </div>
+              <div class="container-fluid" id="mmrfq-step-3">
+                  <div class="row">
+                      <div class="col-12 mmrfq-1">
+                          <i class="fas fa-chevron-left" data-dismiss="modal"></i> <!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+                          <h1>RFQ Step 3</h1>
+                          <span><i class="fas fa-times" data-dismiss="modal"></i></span>
+                      </div>
+                      <div class="col-12 mmrfq-2">
+                          <div class="mmrfq-2-field">
+                              <label>Product Name</label>
+                              <input class="form-control" type="text">
+                          </div>
+                          <span class="mmrfq-1-icon-box"><i class="fas fa-camera"></i></span>
+                      </div>
+                      <div class="col-12 mmrfq-3">
+                          <label> Product Type </label>
+                          <select class="form-control">
+                              <option></option>
+                              <option>Saudi Arabia</option>
+                              <option>Iraq</option>
+                              <option>Iran</option>
+                              <option>India</option>
+                              <option>USA</option>
+                              <option>China</option>
+                              <option>England</option>
+                              <option>Korea</option>
+                          </select>
+                      </div>
+                      <div class="col-12 mmrfq-2">
+                          <div class="mmrfq-2-field">
+                              <label>Vendor Location</label>
+                              <input class="form-control" type="text">
+                          </div>
+                          <span class="mmrfq-1-icon-box"><i class="fas fa-map-marker-alt"></i></span>
+                      </div>
+                      <div class="col-12 mmrfq-4">
+                          <p>Quantity</p>
+                          <div class="mmrfq-4-counter">
+                              <span><i class="fas fa-minus"></i></span>
+                              <span>6</span>
+                              <span><i class="fas fa-plus"></i></span>
+                          </div>
+                          <select class="form-control">
+                              <option></option>
+                              <option>Saudi Arabia</option>
+                              <option>Iraq</option>
+                              <option>Iran</option>
+                              <option>India</option>
+                              <option>USA</option>
+                              <option>China</option>
+                              <option>England</option>
+                              <option>Korea</option>
+                          </select>
+                      </div>
+                      <div class="col-12 mmrfq-heading">
+                          <p>Attachments</p>
+                      </div>
+                      <div class="col-12 mmrfq-5">
+                          <div class="mmrfq-5-main-box">
+                              <div class="mmrfq-5-percent-box"></div>
+                              <div class="mmrfq-5-left">
+                                  <i class="fas fa-file"></i>
+                                  <div class="mmrfq-5-left-text-box">
+                                      <p>Document 1.pdf</p>
+                                      <span>2.6MB of 4MB</span>
+                                  </div>
+                              </div>
+                              <div class="mmrfq-5-right">
+                                  <span>65%</span>
+                                  <i class="fas fa-times"></i>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-12 mmrfq-5">
+                          <div class="mmrfq-5-main-box">
+                              <!-- <div class="mmrfq-5-percent-box"></div> -->
+                              <div class="mmrfq-5-left">
+                                  <i class="fas fa-file"></i>
+                                  <div class="mmrfq-5-left-text-box">
+                                      <p>Document 1.pdf</p>
+                                      <span>Upload Complete 4MB</span>
+                                  </div>
+                              </div>
+                              <div class="mmrfq-5-right">
+                                  <span>100%</span>
+                                  <i class=""></i> <!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-12 mmrfq-6">
+                          <span><img src="img/mfrp-up.svg"></span>
+                      </div>
+                      <div class="col-12 mmrfq-7">
+                          <button class="btn mmrfq-btn-step-3">Proceed to Step 4</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="container-fluid" id="mmrfq-step-4">
+                  <div class="row">
+                      <div class="col-12 mmrfq-1">
+                          <i class="fas fa-chevron-left" data-dismiss="modal"></i> <!-- Do not remove this whole element. Just remove it's classes dynamically. -->
+                          <h1>RFQ Step 4</h1>
+                          <span><i class="fas fa-times" data-dismiss="modal"></i></span>
+                      </div>
+                      <div class="col-12 mmrfq-2">
+                          <div class="mmrfq-2-field mmrfq-21-field">
+                              <label>Detail</label>
+                              <input class="form-control" type="text">
+                          </div>
+                      </div>
+                      <div class="col-12 mmrfq-22">
+                          <span>Supplier Capability</span>
+                      </div>
+                      <div class="col-12 mmrfq-4">
+                          <p>Quantity</p>
+                          <div class="mmrfq-4-counter">
+                              <span><i class="fas fa-minus"></i></span>
+                              <span>6</span>
+                              <span><i class="fas fa-plus"></i></span>
+                          </div>
+                          <select class="form-control">
+                              <option></option>
+                              <option>Saudi Arabia</option>
+                              <option>Iraq</option>
+                              <option>Iran</option>
+                              <option>India</option>
+                              <option>USA</option>
+                              <option>China</option>
+                              <option>England</option>
+                              <option>Korea</option>
+                          </select>
+                      </div>
+                      <div class="col-12 mmrfq-22">
+                          <span>Shipping and Payment</span>
+                      </div>
+                      <div class="col-12 mmrfq-23">
+                          <div class="saim-universal-checkbox">
+                              <input type="checkbox" name="abc-checkbox" id="suc-1">
+                              <label for="suc-1">
+                                  <div class="su-tick"><i class="fas fa-check"></i></div>
+                                  <span>I agree to share my details with quoted supplier.</span>
+                              </label>
+                          </div>
+                          <div class="saim-universal-checkbox">
+                              <input type="checkbox" name="abc-checkbox" id="suc-2">
+                              <label for="suc-2">
+                                  <div class="su-tick"><i class="fas fa-check"></i></div>
+                                  <span>I have read and agreed to abide by the Buying Request Posting Rules.</span>
+                              </label>
+                          </div>
+                      </div>
+                      <div class="col-12 mmrfq-7">
+                          <button class="btn">PROCEED</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    
+
+    <div class="bars-nav-box">
+        <a href="#">Features</a>
+        <a href="#">Why EazyProcure</a>
+        <a href="#" class="uc-btn">UseCase <i class="fas fa-chevron-down"></i></a>
+        <div class="use-case-mob">
+            <a href="#"><img src="img/dp-1.svg"> <span>Food Delivery</span></a>
+            <a href="#"><img src="img/dp-2.svg"> <span>Grocery Delivery</span></a>
+            <a href="#"><img src="img/dp-1.svg"> <span>Home Services</span></a>
+            <a href="#"><img src="img/dp-3.svg"> <span>Pharmacy On-Demand</span></a>
+            <a href="#"><img src="img/dp-4.svg"> <span>Salon At Home</span></a>
+        </div>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+    </div>
+    
+    
+    <div class="container-fluid top-nav-s">
+        <div class="row top-eazy-nav-box">
+            <div class="col-sm-2 col-3 img-eazy-name">
+               <img src="img/ezp.svg">
+            </div>
+            <div class="offset-2 col-5 top-nav-eazy-options">
+                <a href="">Features</a>
+                <a href="">Why EazyProcure</a>
+                <div class="dropdown use-case-box">
+                    <button type="button " class="btn dropdown-toggle" data-toggle="dropdown">
+                        Use Case
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu dd-main-menu">
+                      <div class="drop-down-opt-box">
+                        <a class="dropdown-item" href="#">
+                            <div class="dd-img-main-box">
+                                <div class="dd-img-box">
+                                    <img src="img/dp-1.svg"> <span>Food Delivery</span>
+                                  </div>
+                            </div>
+                         </a>
+                         <a class="dropdown-item" href="#">
+                            <div class="dd-img-main-box">
+                                <div class="dd-img-box">
+                                    <img src="img/dp-2.svg"> <span>Grocery Delivery</span>
+                                  </div>
+                            </div>
+                         </a>
+                         <a class="dropdown-item" href="#">
+                            <div class="dd-img-main-box">
+                                <div class="dd-img-box mr-0">
+                                    <img src="img/dp-1.svg"> <span>Home Services</span>
+                                  </div>
+                            </div>
+                         </a>
+                      </div>
+                     <div class="drop-down-opt-box">
+                        <a class="dropdown-item" href="#">
+                            <div class="dd-img-main-box">
+                                <div class="dd-img-box">
+                                    <img src="img/dp-3.svg"> <span>Pharmacy On-Demand</span>
+                                  </div>
+                            </div>
+                         </a>
+                         <a class="dropdown-item" href="#">
+                            <div class="dd-img-main-box">
+                                <div class="dd-img-box">
+                                    <img src="img/dp-4.svg"> <span>Salon At Home</span>
+                                  </div>
+                            </div>
+                         </a>
+                         <a class="dropdown-item" href="#">
+                            <div class="dd-img-main-box">
+                                <div class="dd-img-box mr-0">
+                                    <img src="img/dp-5.svg"> <span>Dog Walking</span>
+                                  </div>
+                            </div>
+                         </a>
+                      </div>
+                    </div>
+                  </div>
+                <a href="">FAQ</a>
+                <a href="">Contact Us</a>
+               
+            </div>
+            <div class="col-sm-3 col-9 eazy-req-lan-box">
+                <button type="button" class="btn eazy-req-button">Send your Request</button>
+                <i class="fas fa-search-location s-end-searvh-icon"></i>
+                <div class="dropdown globe-lan-opt">
+                    <button type="button " class="btn dropdown-toggle" data-toggle="dropdown">
+                        <i class="fas fa-globe"></i>
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">English</a>
+                      <a class="dropdown-item" href="#">العربية</a>
+                    </div>
+                </div>
+                <div class="bars-nav">
+                    <i class="fas fa-bars bn-show"></i>
+                    <i class="fas fa-times bn-hide"></i>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 policy-header">
+                <div class="policy-text-box">
+                    <h1>RETURN AND REFUND POLICY</h1>
+                    <p>See our terms & conditions to have a better understanding</p>
+                </div>
+                <img src="img/policy-4.svg">
+            </div>
+            <div class="col-12 damn-policy-content">
+                <h1>Terms & Conditions</h1>
+                <h2>Updated June 11, 2020</h2>
+                <h3>Welcome to EazyProcure!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam expedita sed, sint dolorem incidunt quia error praesentium ipsa at, ullam rem quisquam ducimus inventore dolor ut quasi esse quae, optio accusantium! Id ducimus labore asperiores nesciunt sed aliquam, explicabo debitis quasi nobis quisquam dolores ullam autem odio quibusdam fugit quo, sequi optio repudiandae non minima ipsum assumenda fuga at! Deserunt similique voluptate repellat aspernatur ea officia porro, consequatur distinctio, quam velit excepturi voluptas molestiae. Nam accusamus aspernatur esse quia deleniti eligendi quisquam, beatae maiores ipsum illo magni laudantium illum repellat sint dolorem molestiae, similique cumque sunt dolore nostrum a aliquam omnis magnam. Iusto numquam, nisi ad nobis, voluptatem dolore rem eos deleniti omnis officiis, natus odio veniam quia. Quam nemo libero explicabo voluptatem eos dolore dicta ipsa eius, rem fugit voluptatibus quisquam, veniam atque distinctio incidunt. Inventore, iusto voluptatum quis necessitatibus soluta nostrum corrupti eligendi aperiam, culpa nesciunt eos omnis ipsam blanditiis assumenda nihil explicabo non adipisci magni repellat incidunt aliquid rem! Cum quam quasi libero quae illo blanditiis deserunt impedit porro. Necessitatibus voluptates rerum, ipsam deleniti cum animi soluta odit, fugiat consequatur fugit placeat provident amet, id vel officiis itaque nihil alias consequuntur aperiam quod eius neque dolorem et?</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="row ">
+            <div class="col-12 pur-started-rib">
+                <img src="img/purple-ribbon.svg" >
+                  <div class="pur-started-btn">
+                    <p>Let's Start a Beautiful Partnership Together</p>
+                    <button type="button" class="btn">Start Now!</button>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer-absolute">
+        <div class="row pt-sm-5 pt-3 pb-3 footer-fluid footer-part-1">
+          <div class="col-sm-2 col-6">
+            <h5>Customer Services</h5>
+            <h6>Help Center</h6>
+            <h6>Contact US</h6>
+            <h6>Report an Issue</h6>
+            <h6>Submit a Proposal</h6>
+            <h6>Policies & Rules</h6>
+            <h6>Give Feedback</h6>
+          </div>
+          <div class="col-sm-2 mob-footer-display col-6">
+            <h5>About Us</h5>
+            <h6>About iPortal ERP</h6>
+            <h6>About 5D Solutions</h6>
+            <h6>Sitemap</h6>
+          </div>
+          <div class="col-sm-2 mob-footer-display col-6 ">
+            <h5>Using ERP Solutions</h5>
+            <h6>All Services</h6>
+            <h6>Request for Quotation</h6>
+            <h6>For Suppliers</h6>
+          </div>
+          <div class="col-sm-2 mob-footer-display col-6 ">
+            <h5>Supplier Services</h5>
+            <h6>Supplier Membership</h6>
+            <h6>Learning Center</h6>
+            <h6>Partner Program</h6>
+          </div>
+          <div class="col-sm-2 col-6 ">
+            <h5>Trade Services</h5>
+            <h6>Trade Assurance</h6>
+            <h6>Business Identity</h6>
+            <h6>Logistics Service</h6>
+            <h6>Monitoring Service</h6>
+            <h6>Payment Terms</h6>
+            <h6>Credits</h6>
+          </div>
+          </div>
+          <div class="row py-sm-4 py-2 footer-fluid footer-part-2">
+            <div class="col-sm-4 mob-footer-display pb-sm-0 py-2 footer-part-2-part-1">
+              <p>Download</p>
+              <a href="#"><img src="img/app store button.svg" alt="App Store"></a>
+              <a href="#"><img src="img//google play button.svg" alt="Google Play Store"></a>
+            </div>
+            <div class="col-sm-4 mob-footer-display footer-part-2-part-2">
+              <p>5D Sol iPortal ERP App</p>
+              <a href="#"><img src="img//5D app.svg" alt=""></a>
+            </div>
+            <div class="col-sm-4 col-12 footer-part-2-part-3 mob-footer-links">
+              <p>Follow Us</p>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              </div>
+              <div class="col-12 pt-sm-4 pt-0 mob-ur-mob">
+                <p class="mob-lines-mob">iPortal.com Site: International - English - </p>
+                <p class="mob-lines-mob">5D Solutionos Group | ERP | iPortal | Facewall | Policies | Sitemap</p>
+                <p class="mob-ur">Browser Alphabetically: About Us | Contact Us | Home | Language | Suppliers</p>
+                <p class="mob-ur">Service Usage Policy - Intellectual Property Protection - Privacy Policy - Terms of Use - User Information Legal Enquiry Guide</p>
+                <br class="mob-footer-display">
+                <p class="mob-lines-mob">5D SOLUTIONS © 2020</p>
+              </div>
+          </div>
+    </div>
+
+
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/swiper.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+
+
+<script>
+    $(".uc-btn").click(function(){
+        $(".use-case-mob").slideToggle(500);
+        $(".uc-btn i").toggleClass("fa-chevron-up");
+        $(".uc-btn i").toggleClass("fa-chevron-down");
+    })
+  </script>
+  
+  
+  
+  <script>
+    $(".bn-show").click(function(){
+        $(".bn-show").css({"display":"none"});
+        $(".bn-hide").css({"display":"flex"});
+        $(".bars-nav-box").addClass("wow animated backInRight");
+        $(".bars-nav-box").css({"transform":"translate(0,0)"});
+        $(".bars-nav-box").css({"display":"flex"});
+    });
+    $(".bn-hide").click(function(){
+        $(".bn-show").css({"display":"flex"});
+        $(".bn-hide").css({"display":"none"});
+        $(".bars-nav-box").css({"transform":"translate(100%,0)"});
+        $(".bars-nav-box").css({"display":"none"});
+    });
+  </script>
+
+<script>
+    $(".fq-1").click(function () {
+        $(".fa-1").slideToggle(500);
+        $(".fq-1 i").toggleClass("fa-chevron-up")
+  $(".fq-1 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-2").click(function () {
+        $(".fa-2").slideToggle(500);
+        $(".fq-2 i").toggleClass("fa-chevron-up")
+  $(".fq-2 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-3").click(function () {
+        $(".fa-3").slideToggle(500);
+        $(".fq-3 i").toggleClass("fa-chevron-up")
+  $(".fq-3 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-4").click(function () {
+        $(".fa-4").slideToggle(500);
+        $(".fq-4 i").toggleClass("fa-chevron-up")
+  $(".fq-4 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-5").click(function () {
+        $(".fa-5").slideToggle(500);
+        $(".fq-5 i").toggleClass("fa-chevron-up")
+  $(".fq-5 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-6").click(function () {
+        $(".fa-6").slideToggle(500);
+        $(".fq-6 i").toggleClass("fa-chevron-up")
+  $(".fq-6 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-7").click(function () {
+        $(".fa-7").slideToggle(500);
+        $(".fq-7 i").toggleClass("fa-chevron-up")
+  $(".fq-7 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-8").click(function () {
+        $(".fa-8").slideToggle(500);
+        $(".fq-8 i").toggleClass("fa-chevron-up")
+  $(".fq-8 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-9").click(function () {
+        $(".fa-9").slideToggle(500);
+        $(".fq-9 i").toggleClass("fa-chevron-up")
+  $(".fq-9 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-10").click(function () {
+        $(".fa-10").slideToggle(500);
+        $(".fq-10 i").toggleClass("fa-chevron-up")
+  $(".fq-10 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-11").click(function () {
+        $(".fa-11").slideToggle(500);
+        $(".fq-11 i").toggleClass("fa-chevron-up")
+  $(".fq-11 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-12").click(function () {
+        $(".fa-12").slideToggle(500);
+        $(".fq-12 i").toggleClass("fa-chevron-up")
+  $(".fq-12 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-13").click(function () {
+        $(".fa-13").slideToggle(500);
+        $(".fq-13 i").toggleClass("fa-chevron-up")
+  $(".fq-13 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-14").click(function () {
+        $(".fa-14").slideToggle(500);
+        $(".fq-14 i").toggleClass("fa-chevron-up")
+  $(".fq-14 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-15").click(function () {
+        $(".fa-15").slideToggle(500);
+        $(".fq-15 i").toggleClass("fa-chevron-up")
+  $(".fq-15 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-16").click(function () {
+        $(".fa-16").slideToggle(500);
+        $(".fq-16 i").toggleClass("fa-chevron-up")
+  $(".fq-16 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-17").click(function () {
+        $(".fa-17").slideToggle(500);
+        $(".fq-17 i").toggleClass("fa-chevron-up")
+  $(".fq-17 i").toggleClass("fa-chevron-down")
+        });
+</script>
+<script>
+    $(".fq-18").click(function () {
+        $(".fa-18").slideToggle(500);
+    $(".fq-18 i").toggleClass("fa-chevron-up")
+  $(".fq-18 i").toggleClass("fa-chevron-down")
+        });
+</script>
+
+<script>
+    $(".mmrfq-btn-step-1").click(function(){
+        $("#mmrfq-step-1").css({"display":"none"});
+        $("#mmrfq-step-2").css({"display":"block"});
+    });
+    $(".mmrfq-btn-step-2").click(function(){
+        $("#mmrfq-step-2").css({"display":"none"});
+        $("#mmrfq-step-3").css({"display":"block"});
+    });
+    $(".mmrfq-btn-step-3").click(function(){
+        $("#mmrfq-step-3").css({"display":"none"});
+        $("#mmrfq-step-4").css({"display":"block"});
+    });
+</script>
+
+
+
+
+</body>
+</html>
